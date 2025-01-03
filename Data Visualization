@@ -1,4 +1,4 @@
-FolderName/FileName.txt
+FolderName/SubFolder/FileName.txt
 
 
-FolderName/.gitkeep
+This is a placeholder
