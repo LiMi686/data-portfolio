@@ -1,4 +1,4 @@
-<h1>brief introduction</h1>
+<h1>Brief Introduction</h1>
 <p>This project utilizes data visualization techniques to perform an in-depth comparative analysis of three significant pandemics in history: Cholera, Dengue, and COVID-19. The primary datasets were sourced from the World Health Organization (WHO) and underwent extensive data preprocessing and aggregation for analysis.</p>
 <p>We employed stream graphs to effectively visualize trends over time for total cases and mortality rates of each disease, highlighting key outbreak periods and peaks. These visualizations clearly illustrated distinct seasonal patterns for Dengue outbreaks, significant spikes associated with contaminated water sources for Cholera, and the global spread dynamics of COVID-19.</p>
 <p>Interactive geographic heatmaps were created using R's ggplot2 and Shiny, illustrating the intensity and distribution of pandemics across different regions and years. This enabled rapid identification of high-risk areas and provided insights into the effectiveness of public health interventions.</p>
