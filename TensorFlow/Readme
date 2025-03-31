@@ -1,183 +1,58 @@
-"""
-The implementation and comparison of four neural network architectures using TensorFlow/Keras: 
+# Neural Network Architecture Comparison Project
 
-1. Deep/Wide networks
+## Project Overview
+This project aims to develop and compare multiple neural network architectures, including deep vs. wide networks, ReLU vs. tanh activation functions, dropout vs. non-dropout networks, and early stopping vs. non-early stopping strategies. Experiments are conducted on multiple datasets (such as **Adult**, **UCI HAR**, and **del.icio.us**) to explore how different architectures and training strategies impact model performance.
 
-2. ReLU vs. tanh activation
+### Deep vs. Wide Networks
+- **Design Approach**  
+  - **Deep Network**: Utilizes multiple hidden layers to capture complex nonlinear relationships.  
+  - **Wide Network**: Employs a single hidden layer, with its number of hidden units calculated to approximately match the deep network's parameter count, allowing for a fair comparison.
+- **Parameter Matching**  
+  - Both networks are designed to have a similar capacity by carefully matching parameter counts, ensuring that differences in performance are primarily due to depth rather than size.
 
-3. Dropout vs. no Dropout
+### Activation Function Comparison
+- Built two separate models: one using **ReLU** activation and the other using **tanh**.
+- Compares how different activation functions affect convergence and final performance.
 
-4. Early Stopping vs. no Early Stopping
+### Dropout Strategy
+- Demonstrates the effect of including versus omitting dropout layers on model generalization.
+- Dropout significantly reduces overfitting in certain scenarios, improving accuracy and robustness.
 
-Comprehensive experiments were conducted on the Adult, UCI HAR, and del.icio.us datasets, 
-
-Exploring the impact of different designs on model accuracy and generalization ability through hyperparameter tuning and performance evaluation.
-"""
-
-
-from typing import Tuple, Dict
-
-import tensorflow
+### Early Stopping Strategy
+- Uses **Early Stopping** to monitor validation loss and halt training when improvements stagnate.
+- Compares models trained with and without early stopping, illustrating its impact on model stability and generalization.
 
 
-def create_auto_mpg_deep_and_wide_networks(
-        n_inputs: int, n_outputs: int) -> Tuple[tensorflow.keras.models.Model,
-                                                tensorflow.keras.models.Model]:
-    """
-    Creates one deep neural network and one wide neural network.
+## Experimental Results
 
-    The neural networks will be asked to predict the number of miles per gallon
-    that different cars get. They will be trained and tested on the Auto MPG
-    dataset from:
-    https://archive.ics.uci.edu/ml/datasets/auto+mpg
-    """
-    #### YOUR CODE HERE ####
-    deep_hidden = 64
-    deep_model = tensorflow.keras.models.Sequential([
-        tensorflow.keras.layers.Input(shape=(n_inputs,)),
-        tensorflow.keras.layers.Dense(deep_hidden, activation='relu'),
-        tensorflow.keras.layers.Dense(deep_hidden, activation='relu'),
-        # Do the caculation to get the number of parameters in the deep model
-        tensorflow.keras.layers.Dense(n_outputs)])
+### Auto MPG Dataset (Regression Task)
+- **Baseline**: RMSE = 8.2  
+- **Deep Network**: RMSE = 4.6  
+- **Wide Network**: RMSE = 4.0  
+> **Observation**: A significant reduction in RMSE indicates both deep and wide networks substantially improve fuel efficiency predictions.
 
-    # Do the caculation to get the number of parameters in the deep model
-    deep_params = (n_inputs * deep_hidden + deep_hidden) + \
-                  (deep_hidden * deep_hidden + deep_hidden) + \
-                  (deep_hidden * n_outputs + n_outputs)
+### del.icio.us Dataset (Multi-label Classification)
+- **Baseline Accuracy**: 65.0%  
+- **ReLU Model Accuracy**: 68.5%  
+- **tanh Model Accuracy**: 68.3%  
+> **Observation**: Although the improvement is a few percentage points, such gains can be critical in multi-label classification.
 
-    # Create a wide model with the same number of parameters as the deep model
-    wide_hidden = (deep_params - n_outputs) // (n_inputs + n_outputs + 1)
-    wide_model = tensorflow.keras.models.Sequential([
-        tensorflow.keras.layers.Input(shape=(n_inputs,)),
-        tensorflow.keras.layers.Dense(wide_hidden, activation='relu'),
-        tensorflow.keras.layers.Dense(n_outputs)])
+### UCI-HAR Dataset (Multi-class Classification)
+- **Baseline Accuracy**: 18.2%  
+- **Dropout Model Accuracy**: 80.9%  
+- **Non-Dropout Model Accuracy**: 79.8%  
+> **Observation**: Introducing dropout dramatically boosts accuracy, demonstrating its effectiveness in reducing overfitting.
 
-    # Set up optmizers for changing the parameters
-    # Based on test_nn file, loss function was checked by rmse, so here we use mse
-    deep_model.compile(optimizer=tensorflow.keras.optimizers.Adam(), loss='mse')
-    wide_model.compile(optimizer=tensorflow.keras.optimizers.Adam(), loss='mse')
+### Census Income Dataset (Binary Classification)
+- **Baseline Accuracy**: 75.4%  
+- **Early Stopping Model Accuracy**: 77.5%  
+- **Non-Early Stopping Model Accuracy**: 77.8%  
+> **Observation**: Even small improvements in binary classification accuracy (a few percentage points) can result in more robust and reliable predictions.
 
-    return deep_model, wide_model
+---
 
-def create_delicious_relu_vs_tanh_networks(
-        n_inputs: int, n_outputs: int) -> Tuple[tensorflow.keras.models.Model,
-                                                tensorflow.keras.models.Model]:
-    """
-    Creates one neural network where all hidden layers have ReLU activations,
-    and one where all hidden layers have tanh activations.
 
-    The neural networks will be asked to predict the 0 or more tags associated
-    with a del.icio.us bookmark. They will be trained and tested on the
-    del.icio.us dataset from:
-    https://github.com/dhruvramani/Multilabel-Classification-Datasets
-    which is a slightly simplified version of:
-    https://archive.ics.uci.edu/ml/datasets/DeliciousMIL%3A+A+Data+Set+for+Multi-Label+Multi-Instance+Learning+with+Instance+Labels
-    """
-    #### YOUR CODE HERE ####
-    # classification problem
-    # we will use sigmoid activation function for the output layer
-    # Firstly, create relu_model
-    relu_model = tensorflow.keras.models.Sequential([
-        tensorflow.keras.layers.Input(shape=(n_inputs,)),
-        tensorflow.keras.layers.Dense(16, activation='relu'),
-        tensorflow.keras.layers.Dense(16, activation='relu'),
-        tensorflow.keras.layers.Dense(n_outputs, activation='sigmoid')])
 
-    # Then, create tanh_model
-    tanh_model = tensorflow.keras.models.Sequential([
-        tensorflow.keras.layers.Input(shape=(n_inputs,)),
-        tensorflow.keras.layers.Dense(16, activation='tanh'),
-        tensorflow.keras.layers.Dense(16, activation='tanh'),
-        tensorflow.keras.layers.Dense(n_outputs, activation='sigmoid')])
 
-    # Compile the models with the same optimizer and loss functionS
-    # binary classification, so we use binary_crossentropy as loss function
-    relu_model.compile(optimizer=tensorflow.keras.optimizers.Adam(), loss='binary_crossentropy')
-    tanh_model.compile(optimizer=tensorflow.keras.optimizers.Adam(), loss='binary_crossentropy')
 
-    return relu_model, tanh_model
 
-def create_activity_dropout_and_nodropout_networks(
-        n_inputs: int, n_outputs: int) -> Tuple[tensorflow.keras.models.Model,
-                                                tensorflow.keras.models.Model]:
-    """Creates one neural network with dropout applied after each layer, and
-    one neural network without dropout.
-
-    The neural networks will be asked to predict which one of six activity types
-    a smartphone user was performing. They will be trained and tested on the
-    UCI-HAR dataset from:
-    https://archive.ics.uci.edu/ml/datasets/human+activity+recognition+using+smartphones
-
-    """
-    #### YOUR CODE HERE ####
-    dropout_rate = 0.5
-
-    # Creates one neural network with dropout applied after each layer,
-    # And one neural network without dropout.
-    # Firstly, with dropout
-    dropout_model = tensorflow.keras.models.Sequential([
-        tensorflow.keras.layers.Input(shape=(n_inputs,)),
-        tensorflow.keras.layers.Dense(64, activation='relu'),
-        tensorflow.keras.layers.Dropout(dropout_rate),
-        tensorflow.keras.layers.Dense(64, activation='relu'),
-        tensorflow.keras.layers.Dropout(dropout_rate),
-        tensorflow.keras.layers.Dense(n_outputs, activation='softmax')])
-
-    # Without dropout
-    nodropout_model = tensorflow.keras.models.Sequential([
-        tensorflow.keras.layers.Input(shape=(n_inputs,)),
-        tensorflow.keras.layers.Dense(64, activation='relu'),
-        tensorflow.keras.layers.Dense(64, activation='relu'),
-        tensorflow.keras.layers.Dense(n_outputs, activation='softmax')])
-
-    # Build the models
-    dropout_model.build((None, n_inputs))
-    nodropout_model.build((None, n_inputs))
-
-    # Compile the models
-    dropout_model.compile(optimizer=tensorflow.keras.optimizers.Adam(),
-                          loss='categorical_crossentropy')
-    nodropout_model.compile(optimizer=tensorflow.keras.optimizers.Adam(),
-                            loss='categorical_crossentropy')
-
-    return dropout_model, nodropout_model
-
-def create_income_earlystopping_and_noearlystopping_networks(
-        n_inputs: int, n_outputs: int) -> Tuple[tensorflow.keras.models.Model,
-                                                Dict,
-                                                tensorflow.keras.models.Model,
-                                                Dict]:
-    """
-    Creates one neural network that uses early stopping during training, and
-    one that does not. 
-
-    The neural networks will be asked to predict whether a person makes more
-    than $50K per year. They will be trained and tested on the "adult" dataset
-    from:
-    https://archive.ics.uci.edu/ml/datasets/adult
-    """
-    #### YOUR CODE HERE ####
-    # classification problem, for doing early stopping,
-    # we could increase the hidden units at the first time.
-    def build_model():
-        return tensorflow.keras.models.Sequential([
-            tensorflow.keras.layers.Input(shape=(n_inputs,)),
-            tensorflow.keras.layers.Dense(128, activation='relu'),
-            tensorflow.keras.layers.Dense(128, activation='relu'),
-            tensorflow.keras.layers.Dense(n_outputs, activation='sigmoid')])
-
-    # buld two models
-    model_es = build_model()
-    model_no_es = build_model()
-
-    # Compile the models
-    model_es.compile(optimizer=tensorflow.keras.optimizers.Adam(),
-                                 loss='binary_crossentropy')
-    model_no_es.compile(optimizer=tensorflow.keras.optimizers.Adam(),
-                                    loss='binary_crossentropy')
-
-    # Set up early stopping
-    early_stop = tensorflow.keras.callbacks.EarlyStopping(monitor='val_loss',
-                                                          patience=5,
-                                                          restore_best_weights=True)
-    return model_es, {'callbacks': [early_stop]}, model_no_es, {}

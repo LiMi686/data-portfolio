@@ -1,24 +1,15 @@
 """
 The implementation and comparison of four neural network architectures using TensorFlow/Keras: 
-
 1. Deep/Wide networks
-
 2. ReLU vs. tanh activation
-
 3. Dropout vs. no Dropout
-
 4. Early Stopping vs. no Early Stopping
-
 Comprehensive experiments were conducted on the Adult, UCI HAR, and del.icio.us datasets, 
-
 Exploring the impact of different designs on model accuracy and generalization ability through hyperparameter tuning and performance evaluation.
 """
-
-
 from typing import Tuple, Dict
 
 import tensorflow
-
 
 def create_auto_mpg_deep_and_wide_networks(
         n_inputs: int, n_outputs: int) -> Tuple[tensorflow.keras.models.Model,
