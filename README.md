@@ -1,5 +1,3 @@
-<h1>Welcome to My Data Analysis Portfolio</h1>
-
 # Hi there, I'm LI MI 👋
 
 As a Data Science student at the University of Arizona, I am passionate about applying data analysis and machine learning techniques to solve real-world problems. I have gained valuable experience through internships at Usher Technologies INC and the University of Arizona Cancer Center, where I worked on projects involving earthquake damage detection and lung cancer research. I have also developed skills in SQL, medical data interpretation, and data analysis. I am eager to continue learning and applying my skills in the field of data science.
