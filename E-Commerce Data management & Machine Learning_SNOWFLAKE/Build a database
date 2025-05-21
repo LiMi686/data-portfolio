@@ -1,0 +1,122 @@
+CREATE DATABASE Olist;
+USE DATABASE Olist;
+USE SCHEMA PUBLIC
+
+
+-- 1. olist_orders table
+CREATE OR REPLACE TABLE olist_orders (
+  order_id                       VARCHAR   NOT NULL,
+  customer_id                    VARCHAR   NOT NULL,
+  order_status                   VARCHAR,
+  order_purchase_timestamp       TIMESTAMP,
+  order_approved_at              TIMESTAMP,
+  order_delivered_carrier_date   TIMESTAMP,
+  order_delivered_customer_date  TIMESTAMP,
+  order_estimated_delivery_date  TIMESTAMP,
+  PRIMARY KEY (order_id));
+
+-- 2. olist_order_customer table
+CREATE OR REPLACE TABLE olist_order_customer (
+  customer_id           VARCHAR   NOT NULL,
+  customer_unique_id    VARCHAR,
+  customer_zip_code_prefix  NUMBER,
+  customer_city         VARCHAR,
+  customer_state        VARCHAR,
+  PRIMARY KEY (customer_id));
+-- order table references customer table
+ALTER TABLE olist_orders
+  ADD FOREIGN KEY (customer_id)
+  REFERENCES olist_order_customer (customer_id);
+
+-- 3. olist_geolocation table
+CREATE OR REPLACE TABLE olist_geolocation (
+  geolocation_zip_code_prefix  NUMBER   NOT NULL,
+  geolocation_lat              FLOAT,
+  geolocation_lng              FLOAT,
+  geolocation_city             VARCHAR,
+  geolocation_state            VARCHAR,
+  PRIMARY KEY (geolocation_zip_code_prefix));
+-- Customer table references geolocation
+ALTER TABLE olist_order_customer
+  ADD FOREIGN KEY (customer_zip_code_prefix)
+  REFERENCES olist_geolocation (geolocation_zip_code_prefix);
+
+-- 4. olist_products table
+CREATE OR REPLACE TABLE olist_products (
+  product_id                    VARCHAR   NOT NULL,
+  product_category_name         VARCHAR,
+  product_name_lenght           NUMBER,
+  product_description_lenght    NUMBER,
+  product_photos_qty            NUMBER,
+  product_weight_g              NUMBER,
+  product_length_cm             NUMBER,
+  product_height_cm             NUMBER,
+  product_width_cm              NUMBER,
+  PRIMARY KEY (product_id));
+
+-- 5. olist_sellers table
+CREATE OR REPLACE TABLE olist_sellers (
+  seller_id            VARCHAR   NOT NULL,
+  seller_zip_code_prefix  NUMBER,
+  seller_city          VARCHAR,
+  seller_state         VARCHAR,
+  PRIMARY KEY (seller_id));
+-- sellers tables reference geolocation
+ALTER TABLE olist_sellers
+  ADD FOREIGN KEY (seller_zip_code_prefix)
+  REFERENCES olist_geolocation (geolocation_zip_code_prefix);
+
+-- 6. olist_order_items table
+CREATE OR REPLACE TABLE olist_order_items (
+  order_id            VARCHAR   NOT NULL,
+  order_item_id       NUMBER    NOT NULL,
+  product_id          VARCHAR   NOT NULL,
+  seller_id           VARCHAR   NOT NULL,
+  shipping_limit_date TIMESTAMP,
+  price               FLOAT,
+  freight_value       FLOAT,
+  PRIMARY KEY (order_id, order_item_id),
+  FOREIGN KEY (order_id)   REFERENCES olist_orders  (order_id),
+  FOREIGN KEY (product_id) REFERENCES olist_products(product_id),
+  FOREIGN KEY (seller_id)  REFERENCES olist_sellers (seller_id));
+
+-- 7. olist_order_payments table
+CREATE OR REPLACE TABLE olist_order_payments (
+  order_id             VARCHAR   NOT NULL,
+  payment_sequential   NUMBER    NOT NULL,
+  payment_type         VARCHAR,
+  payment_installments NUMBER,
+  payment_value        FLOAT,
+  PRIMARY KEY (order_id, payment_sequential),
+  FOREIGN KEY (order_id) REFERENCES olist_orders (order_id));
+
+-- 8. olist_order_reviews table
+CREATE OR REPLACE TABLE olist_order_reviews (
+  review_id               VARCHAR   NOT NULL,
+  order_id                VARCHAR   NOT NULL,
+  review_score            NUMBER,
+  review_comment_title    VARCHAR,
+  review_comment_message  VARCHAR,
+  review_creation_date    TIMESTAMP,
+  review_answer_timestamp TIMESTAMP,
+  PRIMARY KEY (review_id),
+  FOREIGN KEY (order_id) REFERENCES olist_orders (order_id));
+
+
+
+-- Check
+SELECT COUNT(*) FROM olist_orders;
+SELECT COUNT(*) FROM olist_order_items;
+SELECT COUNT(*) FROM olist_order_payments;
+SELECT COUNT(*) FROM olist_order_reviews;
+SELECT COUNT(*) FROM olist_order_customer;
+SELECT COUNT(*) FROM olist_products;
+SELECT COUNT(*) FROM olist_sellers;
+SELECT COUNT(*) FROM olist_geolocation;
+
+
+
+SELECT 'sqlserver' dbms,t.TABLE_CATALOG,t.TABLE_SCHEMA,t.TABLE_NAME,c.COLUMN_NAME,c.ORDINAL_POSITION,c.DATA_TYPE,c.CHARACTER_MAXIMUM_LENGTH,n.CONSTRAINT_TYPE,k2.TABLE_SCHEMA,k2.TABLE_NAME,k2.COLUMN_NAME FROM INFORMATION_SCHEMA.TABLES t LEFT JOIN INFORMATION_SCHEMA.COLUMNS c ON t.TABLE_CATALOG=c.TABLE_CATALOG AND t.TABLE_SCHEMA=c.TABLE_SCHEMA AND t.TABLE_NAME=c.TABLE_NAME LEFT JOIN(INFORMATION_SCHEMA.KEY_COLUMN_USAGE k JOIN INFORMATION_SCHEMA.TABLE_CONSTRAINTS n ON k.CONSTRAINT_CATALOG=n.CONSTRAINT_CATALOG AND k.CONSTRAINT_SCHEMA=n.CONSTRAINT_SCHEMA AND k.CONSTRAINT_NAME=n.CONSTRAINT_NAME LEFT JOIN INFORMATION_SCHEMA.REFERENTIAL_CONSTRAINTS r ON k.CONSTRAINT_CATALOG=r.CONSTRAINT_CATALOG AND k.CONSTRAINT_SCHEMA=r.CONSTRAINT_SCHEMA AND k.CONSTRAINT_NAME=r.CONSTRAINT_NAME)ON c.TABLE_CATALOG=k.TABLE_CATALOG AND c.TABLE_SCHEMA=k.TABLE_SCHEMA AND c.TABLE_NAME=k.TABLE_NAME AND c.COLUMN_NAME=k.COLUMN_NAME LEFT JOIN INFORMATION_SCHEMA.KEY_COLUMN_USAGE k2 ON k.ORDINAL_POSITION=k2.ORDINAL_POSITION AND r.UNIQUE_CONSTRAINT_CATALOG=k2.CONSTRAINT_CATALOG AND r.UNIQUE_CONSTRAINT_SCHEMA=k2.CONSTRAINT_SCHEMA AND r.UNIQUE_CONSTRAINT_NAME=k2.CONSTRAINT_NAME WHERE t.TABLE_TYPE='BASE TABLE';
+
+
+  
