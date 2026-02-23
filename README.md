@@ -9,9 +9,9 @@ LinkedIn: [https://www.linkedin.com/in/li-mi-330upup/](https://www.linkedin.com/
 
 <img align="left" width="300" src="Data%20Visualization/Poster%20presentation_R/Poster.png">
 
-### Pandemic Analysis (Jan 2025)
+### [Pandemic Analysis (Jan 2025)](Data%20Visualization/Poster%20presentation_R/3_Diseases%20_writeup.pdf)
 
-Processed and analyzed global WHO datasets to explore infection and mortality trends across 200+ countries. Built interactive geographic heatmaps using ggplot2 and Shiny for spatiotemporal analysis, and applied web scraping (rvest) to examine correlations between media coverage and case growth.
+Processed and analyzed global WHO datasets across 200+ countries to examine infection and mortality trends. Built interactive geographic heatmaps using ggplot2 and Shiny for spatiotemporal analysis, and applied web scraping (rvest) to study correlations between media coverage and case growth.
 
 <br clear="left"/>
 
