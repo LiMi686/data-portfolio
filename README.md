@@ -3,6 +3,7 @@
 This portfolio showcases selected Data Science and Data Analysis projects I have completed through academic coursework, research, and independent learning. It highlights my technical skills, analytical thinking, and applied machine learning experience.
 
 Email: [lim33746@gmail.com](mailto:lim33746@gmail.com)
+
 LinkedIn: [https://www.linkedin.com/in/li-mi-330upup/](https://www.linkedin.com/in/li-mi-330upup/)
 
 ## 🚀 Projects
