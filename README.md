@@ -1,6 +1,6 @@
 # Data Portfolio – Li Mi👋
 
-This portfolio showcases selected Data Science and Data Analysis projects I have completed through academic coursework, research, and independent learning. It highlights my technical skills, analytical thinking, and applied machine learning experience.
+This Portfolio is a compilation of all the Data Science and Data Analysis projects I have done for academic, self-learning and hobby purposes. This portfolio also contains my Achievements, skills, and certificates. It is updated on the regular basis.
 
 Email: [lim33746@gmail.com](mailto:lim33746@gmail.com)
 
