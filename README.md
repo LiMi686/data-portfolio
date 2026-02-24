@@ -1,4 +1,4 @@
-# Data Portfolio – Li Mi👋
+# Data Science Portfolio – Li Mi👋
 
 This Portfolio is a compilation of all the Data Science and Data Analysis projects I have done for academic, self-learning and hobby purposes. This portfolio also contains my Achievements, skills, and certificates. It is updated on the regular basis.
 
@@ -17,7 +17,7 @@ Processed and analyzed global WHO datasets across 200+ countries to examine infe
 <br clear="left"/>
 
 
----------------------------------------------------------------------------------------
+---
 
 <img align="left" width="300" src="Airbnb%20Relational%20Database%20Design%20and%20SQL%20Implementation/Print.png">
 
@@ -27,9 +27,3 @@ In this project I designed and implemented a normalized relational database mode
 
 <br clear="left"/>
 
-
-
-
-
-
-Feel free to explore my GitHub repositories for more insights into my projects and contributions!
