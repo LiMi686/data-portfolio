@@ -1,3 +1,4 @@
+CREATE DATABASE IF NOT EXISTS airbnb;
 USE airbnb;
 /*
 1. Guest

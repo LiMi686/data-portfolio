@@ -16,14 +16,18 @@ Processed and analyzed global WHO datasets across 200+ countries to examine infe
 
 <br clear="left"/>
 
-- **Online Retail Data Mining Analysis (Dec 2024):**  
-  Analyzed transaction data from an online retailer by applying anomaly detection using the IQR method to identify extreme values and irregular pricing. Leveraged Apriori-based association rule learning to uncover strong product associations.
+<img align="left" width="300" src="Airbnb%20Relational%20Database%20Design%20and%20SQL%20Implementation/Print.png">
 
-- **NYC Parking Ticket Dataset Analysis (Apr 2023):**  
-  Explored the NYC parking ticket dataset to uncover trends in parking violations, fine distributions, and geographic hotspots across the city. Utilized Python libraries for data cleaning, exploratory analysis, and visualization to derive actionable insights from complex urban data.
+### Airbnb Relational Database Design & SQL Implementation
 
-- **Seattle Paid Parking Analysis (Mar 2023):**  
-  Analyzed Seattle's paid parking data to evaluate patterns in parking occupancy and revenue. Developed interactive dashboards to communicate key findings, providing recommendations for optimizing urban parking management.
+Designed and implemented a fully normalized relational database system that models Airbnb’s core business operations, including users, listings, bookings, payments, reviews, insurance coverage, and concern reporting workflows.
+
+Translated a real-world marketplace into an ER model and 20 relational tables with primary keys, foreign keys, bridge tables, and integrity constraints. Generated constraint-consistent synthetic data to simulate realistic booking, payment, and reporting scenarios.
+
+<br clear="left"/>
+
+
+
 
 
 
