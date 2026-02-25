@@ -43,7 +43,7 @@ class F1Metric(tf.keras.metrics.Metric):
 tokenizer = AutoTokenizer.from_pretrained("distilroberta-base")
 
 def tokenize(examples): 
-    # truncation（截断，如果有超出部分） + padding（填充）到同一长度
+    # truncation + padding（
     return tokenizer(examples["text"], truncation= True, max_length = 128) 
 
 def train(model_path = "model_tf", 
@@ -52,10 +52,10 @@ def train(model_path = "model_tf",
     # 2. upload the csv
     hf = datasets.load_dataset("csv", data_files = {"train": train_path, 
                                                     "validation": dev_path})
-    # 标签列
+    # Label column
     labels = hf["train"].column_names[1:]
 
-    # 把多列label合成(一个list
+    # Combine multiple label columns into a single list
     def gather_labels(batch):
         n = len(batch[labels[0]])
         batch["labels"] = [
@@ -70,16 +70,16 @@ def train(model_path = "model_tf",
     )
 
 
-    # 分词
+    # divide tokenize
     hf = hf.map(
         tokenize,
         batched=True,
     )
 
-    # 3. DataCollator自动pad， 返回tf张量
+    # 3. DataCollator automatically pads, returning tf
     data_collator = DataCollatorWithPadding(tokenizer, return_tensors="tf")
 
-    # 4.再生成tf.data.Dataset
+    # 4.Regenerate tf.data.Dataset
     train_ds = hf["train"].to_tf_dataset(
         columns=["input_ids","attention_mask"],
         label_cols=["labels"],
@@ -95,14 +95,14 @@ def train(model_path = "model_tf",
         collate_fn=data_collator,
     )
 
-    # 5. 加载预训练Transformer 并指定多标签分类
+    # 5. Load the pre-trained Transformer and specify multi-label classification.
     model = TFAutoModelForSequenceClassification.from_pretrained(
         "distilroberta-base",
         num_labels=len(labels),
         problem_type="multi_label_classification"
     )
 
-    # 6. 编译
+    # 6. compile
     model.compile(
         optimizer=tf.keras.optimizers.Adam(learning_rate = 3e-5), 
         loss = tf.keras.losses.BinaryCrossentropy(from_logits=True),
@@ -112,7 +112,7 @@ def train(model_path = "model_tf",
             ]
     )
 
-    # 7. 训练，同时保存效果最好的checkpoint
+    # 7. Train, and save the checkpoint with the best results.
     model.fit(
         train_ds,
         validation_data=val_ds,
@@ -130,12 +130,12 @@ def train(model_path = "model_tf",
     )
 
 def predict(model_path="model_tf", input_path="train.csv"):
-        # 1. 载入模型
+        # 1. load the model
     model = TFAutoModelForSequenceClassification.from_pretrained(model_path)
-        # 2. 读入数据
+        # 2. import the data
     df = pd.read_csv(input_path)
     hf = datasets.Dataset.from_pandas(df)
-        # 3. 分词
+        # 3. divide token
     hf = hf.map(tokenize, batched=True)
     data_collator = DataCollatorWithPadding(tokenizer, return_tensors="tf")
     tfds = hf.to_tf_dataset(
@@ -144,12 +144,12 @@ def predict(model_path="model_tf", input_path="train.csv"):
         batch_size = 16,
         collate_fn = data_collator
     )
-        # 4. 预测（返回logits）
+        # 4. forecast and return logits
     logits = model.predict(tfds).logits
     probs = tf.sigmoid(logits).numpy()
     preds = (probs > 0.5).astype(int)
 
-        # 5. 写回DataFrame
+        # 5. store back to DataFrame
     df.iloc[:, 1:] = preds
     df.to_csv("submission.zip", index=False,
             compression=dict(method="zip", archive_name="submission.csv"))

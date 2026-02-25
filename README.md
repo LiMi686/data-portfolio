@@ -51,4 +51,6 @@ In this project, we developed a cloud-based customer analytics pipeline using Sn
 
   - [Neural Network Architecture Comparison](https://github.com/LiMi686/data-portfolio/blob/f9199c4b003225146c2d75aa29d6b970c8117262/Neural%20Network_Tensorflow/Architecture%20Comparison/Readme.md): compare multiple neural network architectures, including deep vs. wide networks, ReLU vs. tanh activation functions, dropout vs. non-dropout networks, and early stopping vs. non-early stopping strategies.
 
+  - [Multi-label Text Classification](https://github.com/LiMi686/data-portfolio/blob/8595a480de9aa7b6eba78521614f3012ce01c98b/Distilroberta_hands%20up/README.md): I implemented a multi-label text classification pipeline using the DistilRoBERTa transformer model with 85% accuracy. 
+
   - [Web Scraper (R)](https://github.com/LiMi686/data-portfolio/blob/297972f3982b32cf801443426a7a445d73cf1248/Data%20Mining_ML/R_Web%20Scraper.R): Implemented a simple data scraping workflow in R, including scraping and structured data storage.
