@@ -8,6 +8,8 @@ LinkedIn: [https://www.linkedin.com/in/li-mi-330upup/](https://www.linkedin.com/
 
 ## Projects
 
+---
+
 <img align="left" width="300" 
 src="Data%20Science%20%26%20Engineering%20Diagnostics/print.png">
 
