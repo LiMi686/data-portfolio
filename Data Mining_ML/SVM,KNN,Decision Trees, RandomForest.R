@@ -175,8 +175,3 @@ print(paste("Random Forest Accuracy: ", rf_accuracy))
 # "SVM Accuracy:  0.825842696629214"
 # "Logistic Regression Accuracy:  0.775280898876405"
 # "Random Forest Accuracy:  0.831460674157303"
-# "KNN Accuracy:  0.780898876404494"
-# "Decision Tree Accuracy:  0.786516853932584"
-# "SVM Accuracy:  0.825842696629214"
-# "Logistic Regression Accuracy:  0.775280898876405"
-# "Random Forest Accuracy:  0.831460674157303"
