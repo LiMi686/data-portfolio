@@ -43,3 +43,11 @@ src="https://github.com/LiMi686/data-portfolio/blob/83d388edcd3a7f8e71dfd551d2d9
 ### [Cloud-Based E-Commerce Customer Analytics](https://github.com/LiMi686/data-portfolio/blob/a09adf2a03e7079cc4601f360b9f157b49339a93/Cloud-Based%20E-Commerce%20Customer%20Analytics/Project%20Report.pdf)
 
 In this project, we developed a cloud-based customer analytics pipeline using Snowflake and Python to analyze e-commerce behavioral data. After performing feature engineering and aggregating customer-level metrics, we applied RFM analysis and K-Means clustering to identify customer segments. The resulting clusters provide insights into spending patterns, satisfaction levels, and delivery performance.
+
+
+---
+
+## Micro Projects
+
+#### [Web Scraper by R language](https://github.com/LiMi686/data-portfolio/blob/f2baff2c3bc5bbb02e297bfb193858af9c2d8a40/Data%20Mining_ML/R_Web%20Scraper.R)
+: I wrote a simple data scraping workflow in R, encompassing both scraping and storage.

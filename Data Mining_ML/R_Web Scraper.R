@@ -16,14 +16,12 @@ times <- webpage %>%
   html_nodes("div.color-grey-dark") %>%
   html_text(trim = TRUE)
 
-# 创建一个数据框存储爬取的内容
+# Create a data frame to store crawled content
 data <- data.frame(
   title = titles,
   time = times,
   stringsAsFactors = FALSE
 )
-
-# 查看数据
 print(data)
 
 write.xlsx(data, "mdpi_1.xlsx")
