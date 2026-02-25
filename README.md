@@ -35,3 +35,11 @@ This is a group project, we designed and implemented a normalized relational dat
 
 <br clear="left"/>
 
+---
+
+<img align="left" width="300"
+src="Brazilian%20E-Commerce%20Public%20Dataset%20by%20Olist/print.png">
+
+### [Cloud-Based E-Commerce Customer Analytics](https://github.com/LiMi686/data-portfolio/blob/main/Data%20Management%20&%20Machine%20Learning_SNOWFLAKES/Project%20Report.pdf)
+
+In this project, we developed a cloud-based customer analytics pipeline using Snowflake and Python to analyze e-commerce behavioral data. After performing feature engineering and aggregating customer-level metrics, I applied RFM analysis and K-Means clustering to identify distinct customer segments. The resulting cluster profiles provide actionable insights into spending patterns, satisfaction levels, and delivery performance.
