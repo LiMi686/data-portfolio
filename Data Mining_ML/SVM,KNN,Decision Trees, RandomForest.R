@@ -107,9 +107,6 @@ print(paste("KNN Accuracy: ", knn_accuracy))
 
 
 #Decision Tree
-
-
-
 # Train a decision tree
 dt_model <- rpart(Survived ~ ., data = train_data, method = "class")
 
@@ -135,9 +132,6 @@ svm_pred <- predict(svm_model, test_data)
 svm_accuracy <- mean(svm_pred == test_data$Survived)
 print(paste("SVM Accuracy: ", svm_accuracy))
 
-
-
-
 # logistic regerssion
 
 # Train a logistic regression model
@@ -150,8 +144,6 @@ logistic_pred_class <- ifelse(logistic_pred > 0.5, 1, 0)
 # Calculate accuracy
 logistic_accuracy <- mean(logistic_pred_class == test_data$Survived)
 print(paste("Logistic Regression Accuracy: ", logistic_accuracy))
-
-
 
 
 # Random forest
@@ -176,3 +168,15 @@ print(paste("Decision Tree Accuracy: ", dt_accuracy))
 print(paste("SVM Accuracy: ", svm_accuracy))
 print(paste("Logistic Regression Accuracy: ", logistic_accuracy))
 print(paste("Random Forest Accuracy: ", rf_accuracy))
+
+######## Results #######
+# "KNN Accuracy:  0.780898876404494"
+# "Decision Tree Accuracy:  0.786516853932584"
+# "SVM Accuracy:  0.825842696629214"
+# "Logistic Regression Accuracy:  0.775280898876405"
+# "Random Forest Accuracy:  0.831460674157303"
+# "KNN Accuracy:  0.780898876404494"
+# "Decision Tree Accuracy:  0.786516853932584"
+# "SVM Accuracy:  0.825842696629214"
+# "Logistic Regression Accuracy:  0.775280898876405"
+# "Random Forest Accuracy:  0.831460674157303"
