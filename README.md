@@ -65,3 +65,12 @@ I implemented association rule mining using the Apriori algorithm to identify fr
   - [Classification Model Benchmarking in R](https://github.com/LiMi686/data-portfolio/blob/cfad5a1059dd3f25d3ea4c3b5583b019d714a1c3/Data%20Mining_ML/SVM,KNN,Decision%20Trees,%20RandomForest.R): Implemented a supervised learning pipeline in R using the Titanic dataset, benchmarked KNN, Decision Tree, SVM, Logistic Regression, and Random Forest models to compare classification performance.
 
   - [Web Scraper (R)](https://github.com/LiMi686/data-portfolio/blob/297972f3982b32cf801443426a7a445d73cf1248/Data%20Mining_ML/R_Web%20Scraper.R): Implemented a simple data scraping workflow in R, including scraping and structured data storage.
+
+  ---
+
+  ## Core Competencies
+- Methodologies: Machine Learning, Statistical Modeling, Time Series Analysis, Natural Language Processing, A/B Testing, Association Rule Mining, Data Visualization, Relational Database Design
+
+- Languages: Python (Pandas, NumPy, Scikit-Learn, Matplotlib), R (Dplyr, Ggplot2, Caret), SQL
+
+- Tools: MySQL, Tableau, Power BI, Git, PySpark, Amazon Web Services (AWS), MS Excel, Azure
