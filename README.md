@@ -17,9 +17,9 @@ I applied statistical modeling to evaluate structural integrity by analyzing fre
 
 ---
 
-<img align="left" width="300" src="Data%20Visualization/Poster%20presentation_R/Poster.png">
+<img align="left" width="300" src="https://github.com/LiMi686/data-portfolio/blob/main/Data%20Visualization/Poster%20presentation_R/print.jpg">
 
-### [Pandemic Visualization & Analysis by R](Data%20Visualization/Poster%20presentation_R/3_Diseases%20_writeup.pdf)
+### [Pandemic Visualization & Analysis by R](Data%20Visualization/Poster%20presentation_R/Poster.png)
 
 Processed and analyzed global WHO datasets across 200+ countries to examine infection and mortality trends. Built interactive geographic heatmaps using ggplot2 and Shiny for spatiotemporal analysis, and applied web scraping (rvest) to study correlations between media coverage and case growth.
 
