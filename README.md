@@ -47,5 +47,6 @@ In this project, we developed a cloud-based customer analytics pipeline using Sn
 
 ---
 
-- **Micro Projects**
+### Micro Projects 
+
   - [Web Scraper (R)](https://github.com/LiMi686/data-portfolio/blob/297972f3982b32cf801443426a7a445d73cf1248/Data%20Mining_ML/R_Web%20Scraper.R): Implemented a simple data scraping workflow in R, including scraping and structured data storage.
