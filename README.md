@@ -51,6 +51,7 @@ src="https://github.com/LiMi686/data-portfolio/blob/main/Data%20Mining_ML/print.
 ### [Online Retail Association Rule](https://github.com/LiMi686/data-portfolio/blob/f2baff2c3bc5bbb02e297bfb193858af9c2d8a40/Data%20Mining_ML/Association%20Rule%20Learning%20with%20Apriori%20(1).ipynb)
 
 I implemented association rule mining using the Apriori algorithm to identify frequent itemsets and co-purchasing patterns in transactional retail data. By computing Support, Confidence, and Lift, I quantified product relationships and generated data-driven insights for bundling and cross-selling strategies.
+
 ---
 
 ### Micro Projects 
