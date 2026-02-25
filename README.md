@@ -11,7 +11,7 @@ LinkedIn: [https://www.linkedin.com/in/li-mi-330upup/](https://www.linkedin.com/
 <img align="left" width="300"
 src="C:\Users\LIMI\Desktop\data-portfolio\Data Science & Engineering Diagnostics\print.png">
 
-### [Data-Driven Seismic Damage Detection for buildings]    ([C:\Users\LIMI\Desktop\data-portfolio\Data Science & Engineering Diagnostics\USHER_TIME SERIES AND REGRESSION.ipynb](https://github.com/LiMi686/data-portfolio/blob/main/Data%20Science%20%26%20Engineering%20Diagnostics/USHER_TIME%20SERIES%20AND%20REGRESSION.ipynb))
+### [Data-Driven Seismic Damage Detection for buildings]    ([https://github.com/LiMi686/data-portfolio/blob/main/Data%20Science%20%26%20Engineering%20Diagnostics/USHER_TIME%20SERIES%20AND%20REGRESSION.ipynb](https://github.com/LiMi686/data-portfolio/blob/main/Data%20Science%20%26%20Engineering%20Diagnostics/USHER_TIME%20SERIES%20AND%20REGRESSION.ipynb))
 
 In this project, I applied statistical modeling to evaluate structural integrity by analyzing frequency shifts before and after a strong earthquake using high-rise monitoring data. I conducted exploratory analysis, peak detection, and segmented the data into pre and post-earthquake periods. I implemented linear regression and autoregressive (AR) time series models to assess deviations in post-earthquake behavior. The prediction indicated no significant structural damage, the result also aligned with the data obtained from field surveys and measurements.
 
