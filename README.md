@@ -31,7 +31,7 @@ Processed and analyzed global WHO datasets across 200+ countries to examine infe
 
 ### [Airbnb Relational Database Design -MySQL](https://github.com/LiMi686/data-portfolio/tree/main/Airbnb%20Relational%20Database%20Design%20and%20SQL%20Implementation)
 
-In this project I designed and implemented a normalized relational database modeling Airbnb’s marketplace operations. I built an ER model and translated it into 20 SQL tables with primary and foreign keys to ensure data integrity. I also defined 10 real-world business problems and developed SQL queries to generate revenue, risk, and performance insights.
+This is a group project, we designed and implemented a normalized relational database modeling Airbnb’s marketplace operations. I built an ER model and translated it into 20 SQL tables with primary and foreign keys to ensure data integrity. we also defined 10 real-world business problems and developed SQL queries to generate revenue, risk, and performance insights.
 
 <br clear="left"/>
 
