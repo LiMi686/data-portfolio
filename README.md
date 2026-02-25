@@ -44,7 +44,13 @@ src="https://github.com/LiMi686/data-portfolio/blob/83d388edcd3a7f8e71dfd551d2d9
 
 In this project, we developed a cloud-based customer analytics pipeline using Snowflake and Python to analyze e-commerce behavioral data. After performing feature engineering and aggregating customer-level metrics, we applied RFM analysis and K-Means clustering to identify customer segments. The resulting clusters provide insights into spending patterns, satisfaction levels, and delivery performance.
 
+---
+<img align="left" width="300"
+src="https://github.com/LiMi686/data-portfolio/blob/main/Data%20Mining_ML/print.jpg">
 
+### [Online Retail Association Rule](https://github.com/LiMi686/data-portfolio/blob/f2baff2c3bc5bbb02e297bfb193858af9c2d8a40/Data%20Mining_ML/Association%20Rule%20Learning%20with%20Apriori%20(1).ipynb)
+
+I implemented association rule mining using the Apriori algorithm to identify frequent itemsets and co-purchasing patterns in transactional retail data. By computing Support, Confidence, and Lift, I quantified product relationships and generated data-driven insights for bundling and cross-selling strategies.
 ---
 
 ### Micro Projects 
