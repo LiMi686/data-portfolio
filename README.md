@@ -68,9 +68,19 @@ I implemented association rule mining using the Apriori algorithm to identify fr
 
   ---
 
-  ## Core Competencies
+## Core Competencies
 - Methodologies: Machine Learning, Statistical Modeling, Time Series Analysis, Natural Language Processing, A/B Testing, Association Rule Mining, Data Visualization, Relational Database Design
 
 - Languages: Python (Pandas, NumPy, Scikit-Learn, Matplotlib), R (Dplyr, Ggplot2, Caret), SQL
 
 - Tools: MySQL, Tableau, Power BI, Git, PySpark, Amazon Web Services (AWS), MS Excel, Azure
+
+--- 
+
+## Certificates
+<p align="center">
+  <img src="https://github.com/LiMi686/data-portfolio/blob/main/Certificates/Fundamentals%20of%20Accelerated%20Data%20Science.png" width="30%" />
+  <img src="https://github.com/LiMi686/data-portfolio/blob/main/Certificates/HCIA%20AI.png" width="30%" />
+  <img src="https://github.com/LiMi686/data-portfolio/blob/main/Certificates/Apsara%20Clouder.png" width="30%" />
+</p>
+
