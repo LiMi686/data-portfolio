@@ -1,0 +1,388 @@
+---
+title: "INFO523_Project2_Q3"
+author: "LI MI"
+date: "2024-11-30"
+output: html_document
+---
+
+## Did news reports have any impact on the disease growth rates?
+
+-   Visualization: Use time series to see the disease growth rate and use scatter plot to understand the changes in disease growth rate before and after news reports. This step will only apply to those pandemics in modern days when there were recorded news media.
+
+-   Reason: This comparison can reveal the role of media in public awareness and response, helping assess if early media coverage affected outbreak management.
+
+About Covid-19 cov19 means Covid-19 cov19_NC means Covid-19 new cases
+
+```{r}
+
+library(dplyr)
+Cov19 <- read.csv("C:/Users/LIMI/Desktop/WHO-COVID-19-global-daily-data.csv")
+
+
+cov19_NC <- Cov19 |>
+  select(Date_reported,Country,New_cases)
+#cov19_NC <- cov19_NC |>
+#  select(-Country_code)
+#cov19_NC
+
+
+sum(is.na(cov19_NC))
+nrow(cov19_NC)
+
+
+```
+
+```{R}
+#Delete the missing value
+cov19_NC_clean <- na.omit(cov19_NC)
+
+#Transform into the time format
+cov19_NC_clean$Date_reported <- as.Date(cov19_NC_clean$Date_reported, format = "%Y-%m-%d")
+
+#Shrink the field into 2022-01-01 to 2023-12-31
+cov19_NC_clean <- cov19_NC_clean |>
+  filter(Date_reported >= as.Date("2020-01-04") & Date_reported <= as.Date("2020-10-01"))
+
+cov19_NC_clean
+```
+
+Sum up the New_cases based on Date_reported
+
+```{r}
+daily_cases <- cov19_NC_clean |>
+  group_by(Date_reported) |>
+  summarise(total_cases = sum(New_cases, na.rm = TRUE)) |>
+  mutate(growth_rate = (total_cases - lag(total_cases)) / lag(total_cases) *100) |>
+  filter(growth_rate >= 0)
+
+
+print(daily_cases)
+
+```
+
+```{r}
+library(ggplot2)
+library(scales)
+
+
+ggplot(daily_cases, aes(x = Date_reported, y = total_cases)) +
+  geom_point(color = "black", size = 1) +  
+  geom_line(color = "red",size = 0.5) +  
+  labs(title = "Daily COVID-19 Cases", x = "Date", y = "Total Cases") +
+  theme_minimal() +
+  scale_y_continuous(labels = label_number(big.mark = ",", decimal.mark = ".")) +
+  scale_x_date(breaks = "1 month", labels = date_format("%Y.%b")) +
+  theme(plot.title = element_text(hjust = 0.5))
+
+
+
+```
+
+```{R}
+
+library(lubridate)
+
+monthly_cases_aggregated <- daily_cases %>%
+  mutate(Month = floor_date(Date_reported, unit = "month")) %>%  # transorm the daily cases into Monthly
+  group_by(Month) %>%  
+  summarize(total_cases = sum(total_cases))  # Total number of cases summarized by month
+
+# based on month
+ggplot(monthly_cases_aggregated, aes(x = Month, y = total_cases)) +
+  geom_point(color = "black", size = 1) +  
+  geom_line(color = "red", size = 0.5) +  
+  labs(title = "Monthly COVID-19 Cases", x = "Month", y = "Total Cases") +
+  theme_minimal() +  
+  scale_y_continuous(labels = label_number(big.mark = ",", decimal.mark = ".")) +  # set the y as normal numbers instead of scientific notation
+  scale_x_date(breaks = "1 month", labels = date_format("%Y.%b")) +   # set x 
+  theme(plot.title = element_text(hjust = 0.5))
+```
+
+New cases in January
+
+```{r}
+cov19_NC_start <- cov19_NC_clean |>
+  filter(Date_reported >= as.Date("2020-01-04") & Date_reported <= as.Date("2020-1-31"))
+
+daily_cases2 <- cov19_NC_start |>
+  group_by(Date_reported) |>
+  summarise(total_cases = sum(New_cases, na.rm = TRUE))
+
+ggplot(daily_cases2, aes(x = Date_reported, y = total_cases)) +
+  geom_point(color = "black") +  
+  geom_line(color = "red") +  
+  labs(title = "Daily COVID-19 Cases", x = "Date", y = "Total Cases") +
+  theme_minimal() +
+  scale_y_continuous(breaks = c(0, 50, 100, 1000, 1500, 2000),
+                     labels = label_number(big.mark = ",", decimal.mark = ".")) +
+  scale_x_date(
+    breaks = "1 day",
+    labels = date_format("%Y-%m-%d")
+  ) + 
+  theme(axis.text.x = element_text(angle = 45, hjust = 1)) +
+  theme(plot.title = element_text(hjust = 0.5))
+```
+
+News data sources: <https://www.mdpi.com/search?sort=pubdate&page_no=14&page_count=200&year_from=2020&year_to=2020&q=Covid&view=compact>
+
+Here we used Web Scraper to aggregate the news data from Feb 2020 to Sep 2020
+
+
+url <- "https://www.mdpi.com/search?sort=pubdate&page_no=14&page_count=200&year_from=2020&year_to=2020&q=Covid&view=compact"
+```{r}
+####### Web Scraper #######
+#library(rvest)
+#library(dplyr)
+#library(openxlsx)
+
+# get the web content
+#webpage <- read_html(url)
+
+#titles <- webpage %>%
+#  html_nodes("a.title-link") %>%
+#  html_text(trim = TRUE)
+
+#times <- webpage %>%
+#  html_nodes("div.color-grey-dark") %>%
+ # html_text(trim = TRUE)
+
+# Create a data frame to store the content
+#data <- data.frame(
+#  title = titles,
+#  time = times,
+#  stringsAsFactors = FALSE
+#)
+
+#print(data)
+
+# save it in the local environment
+#write.xlsx(data, "mdpi_1.xlsx")
+
+```
+
+
+To reduce the stress on the website, I put the data I got into .xlsx file. 
+```{R}
+library(openxlsx)
+library(lubridate)
+# load mdpi_1
+mdpi_1 <- read.xlsx("C:/Users/LIMI/Desktop/mdpi_data sources/mdpi_1.xlsx")
+mdpi_1$time <- substr(mdpi_1$time, nchar(mdpi_1$time) - 10, nchar(mdpi_1$time))  # only keep the last 10 strings. 3
+
+# load mdpi_2
+mdpi_2 <- read.xlsx("C:/Users/LIMI/Desktop/mdpi_data sources/mdpi_2.xlsx")
+mdpi_2$time <- substr(mdpi_2$time, nchar(mdpi_2$time) - 10, nchar(mdpi_2$time))
+
+# load mdpi_3
+mdpi_3 <- read.xlsx("C:/Users/LIMI/Desktop/mdpi_data sources/mdpi_3.xlsx")
+mdpi_3$time <- substr(mdpi_3$time, nchar(mdpi_3$time) - 10, nchar(mdpi_3$time))
+
+# load mdpi_4
+mdpi_4 <- read.xlsx("C:/Users/LIMI/Desktop/mdpi_data sources/mdpi_4.xlsx")
+mdpi_4$time <- substr(mdpi_4$time, nchar(mdpi_4$time) - 10, nchar(mdpi_4$time))
+
+# load mdpi_5
+mdpi_5 <- read.xlsx("C:/Users/LIMI/Desktop/mdpi_data sources/mdpi_5.xlsx")
+mdpi_5$time <- substr(mdpi_5$time, nchar(mdpi_5$time) - 10, nchar(mdpi_5$time))
+
+# load mdpi_6
+mdpi_6 <- read.xlsx("C:/Users/LIMI/Desktop/mdpi_data sources/mdpi_6.xlsx")
+mdpi_6$time <- substr(mdpi_6$time, nchar(mdpi_6$time) - 10, nchar(mdpi_6$time))
+
+# load mdpi_7
+mdpi_7 <- read.xlsx("C:/Users/LIMI/Desktop/mdpi_data sources/mdpi_7.xlsx")
+mdpi_7$time <- substr(mdpi_7$time, nchar(mdpi_7$time) - 10, nchar(mdpi_7$time))
+
+# load mdpi_8
+mdpi_8 <- read.xlsx("C:/Users/LIMI/Desktop/mdpi_data sources/mdpi_8.xlsx")
+mdpi_8$time <- substr(mdpi_8$time, nchar(mdpi_8$time) - 10, nchar(mdpi_8$time))
+
+
+# Combine all the data
+combined_data <- rbind(mdpi_1, mdpi_2, mdpi_3, mdpi_4, mdpi_5, mdpi_6, mdpi_7, mdpi_8)
+
+# Transform the time format
+combined_data$time <- dmy(combined_data$time)
+
+# making a decreasing sequence
+combined_data_sorted <- combined_data[order(combined_data$time, decreasing = TRUE), ]
+
+# check the whole data
+print(combined_data_sorted)
+```
+
+```{r}
+time_counts <- combined_data_sorted %>%
+  count(time)
+
+# 
+ggplot(time_counts, aes(x = time, y = n)) +
+  geom_line(color = "blue", size = 0.5) +  
+  geom_point(color = "black", size = 1) +  
+  scale_x_date(date_labels = "%Y-%m-%d", date_breaks = "1 month") + 
+  theme(axis.text.x = element_text(angle = 45, hjust = 1)) +  
+  labs(x = "Time", y = "Count", title = "News with Date") +
+  theme_minimal() +
+  theme(plot.title = element_text(hjust = 0.5))
+
+```
+
+```{r}
+
+
+# Sum up based on every month
+monthly_data <- combined_data_sorted %>%
+  mutate(Month = floor_date(time, unit = "month")) %>%  # set the date be the first day of every month
+  count(Month)  # calculate the number of occurencing
+
+# News plot
+ggplot(monthly_data, aes(x = Month, y = n)) +
+  geom_line(color = "blue", size = 1) + 
+  geom_point(color = "black", size = 2) +  
+  labs(x = NULL, y = "Count", title = "Monthly News Count") +
+  scale_x_date(date_labels = "%Y-%m", date_breaks = "1 month") +  # set the date displaying
+  theme_minimal() +
+  theme(plot.title = element_text(hjust = 0.5))
+
+
+
+```
+
+Caculate the growth rate
+
+```{r}
+combined_data <- left_join(monthly_data, monthly_cases_aggregated, by = "Month")
+
+n_growth_rate <- diff(combined_data$n) / head(combined_data$n, -1) * 100  
+total_cases_growth_rate <- diff(combined_data$total_cases) / head(combined_data$total_cases, -1) * 100  
+
+# Create a new data box that corresponds the date to the growth ratemon
+growth_table <- data.frame(
+  Month = combined_data$Month[-1],  # Remove the first date and the growth rate is calculated from the second month onwards
+  n_growth_rate = n_growth_rate,
+  total_cases_growth_rate = total_cases_growth_rate
+)
+
+print(growth_table)
+```
+
+Combine monthly_data Count with monthly_cases_aggregated
+
+```{R}
+library(ggplot2)
+library(scales)
+
+ggplot(combined_data, aes(x = Month)) +
+  
+  # Plot line graph of total_cases (left y-axis)
+  geom_line(aes(y = total_cases), color = "red", size = 1) +
+  geom_point(aes(y = total_cases), color = "black", size = 2) +
+  
+  # Plot rectangular shading of n (right y-axis)
+  geom_rect(aes(xmin = Month - 10, 
+                xmax = Month + 10, 
+                ymin = 0, ymax = n * 20000),
+            fill = "grey", alpha = 0.5) +
+  
+# Total_cases y-axis (left y-axis)
+  scale_y_continuous(
+    name = "Total COVID-19 Cases",  # title of left y-axis
+    limits = c(0, max(combined_data$total_cases) * 1.1),  # Set the y-axis range according to the maximum value of total_cases.
+    labels = label_comma(),
+    sec.axis = sec_axis(  # creat the right y-axis
+      trans = ~ .* 0.5e-04,  # use n value directly, Make it match the coordinates of the left y-axis. 
+      name = "Total News Count",
+      breaks = c(0, 100, 200, 300)  # set the scale of right y-axis
+    )
+  ) +
+  
+  # set x date
+  scale_x_date(date_labels = "%Y-%m", date_breaks = "1 month") + 
+  
+  labs(title = "Monthly News and COVID-19 Cases", x = "Month") +
+  theme_minimal() +
+  theme(plot.title = element_text(hjust = 0.5))
+ 
+
+```
+
+```{R}
+library(ggplot2)
+library(scales)
+
+# Define your data
+ggplot(combined_data, aes(x = Month)) +
+  
+  # Plot line graph of total_cases (left y-axis) with color mapping for legend
+  geom_line(aes(y = total_cases, color = "Total COVID-19 Cases"), size = 1) +
+  geom_point(aes(y = total_cases, color = "Total COVID-19 Cases"), size = 2) +
+  
+  # Plot line for n * 20000 (right y-axis) with color mapping for legend
+  geom_line(aes(y = n * 20000, color = "Total News Count"), size = 1) +
+  geom_point(aes(y = n * 20000, color = "Total News Count"), size = 2) +
+  
+  # Plot line graph of total_cases (left y-axis)
+  geom_line(aes(y = total_cases), color = "red", size = 1) +
+  geom_point(aes(y = total_cases), color = "black", size = 2) +
+  
+  # Plot rectangular shading of n (right y-axis)
+  geom_rect(aes(xmin = Month - 10, 
+                xmax = Month + 10, 
+                ymin = 0, ymax = n * 20000),
+            fill = "grey", alpha = 0.5,inherit.aes = FALSE) +
+  
+  geom_point(aes(x = Month, y = n * 20000), 
+             color = "grey", size = 2) +  # Add points at the highest y position
+  geom_line(aes(x = Month, y = n * 20000), 
+            color = "grey30") +  
+  
+  # Total_cases y-axis (left y-axis)
+  scale_y_continuous(
+    name = "Total COVID-19 Cases",  # title of left y-axis
+    limits = c(0, max(combined_data$total_cases) * 1.1),  # Set the y-axis range according to the maximum value of total_cases.
+    labels = function(x) ifelse(x == 0, "0", paste0(label_comma()(x / 1e6), " million")),
+    sec.axis = sec_axis(  # Create the right y-axis
+      trans = ~ .* 0.5e-04,  # use n value directly, Make it match the coordinates of the left y-axis. 
+      name = "Total News Count",
+      breaks = c(0, 100, 200, 300)  # set the scale of right y-axis
+    )
+  ) +
+  
+  scale_x_date(date_labels = "%Y-%m", date_breaks = "1 month") +
+  
+  scale_color_manual(
+    values = c("Total COVID-19 Cases" = "red", "Total News Count" = "grey30"),
+    name = "Legend",
+    labels = c("Total COVID-19 Cases", "Total News Count")  # Custom labels for the legend
+  ) +
+  
+  
+  labs(title = "Monthly News and COVID-19 Cases", x = "Month") +
+  theme_minimal() +
+  theme(plot.title = element_text(hjust = 0.5),
+        legend.position = "right")
+
+
+
+```
+
+
+Our objective in Task 3 was to use time series to see the disease growth rate and understand the changes in disease growth rate after the relative news reports at the first beginning of pandemic. So here we chose to use scatter plot and shaded grey matrix with lines to display the monthly covid-19 cases and number of news. Since scatter plot and shaded grey matrix with lines could show the trend clearly, that allows us clearly to see a corresponding decline or growth at the same time. Creating the contrast we need. Only covid-19 was chosen here because covid-19 is the most recent and largest pandemic in the last hundred years. The number of cases and the amount of news are able to support us in exploring possible patterns. 
+
+From September 2020 onwards, the trend of the covid-19 outbreak could be characterized by a “second wave”, especially in the introduction of tougher bordering restrictions, and the surge in the number of cases. At the same time,  several media reports also reported that it was the beginning of the second wave of the pandemic. Therefore, we chose to filter news about covid-19 through September 2020 The news data was obtained from Multidisciplinary Digital Publishing Institute (MDPI). News was collected by Web Scraper through Rstudio. Here we totally get 3155 news which covers the whole year of 2020, because we are looking at the early stages of the outbreak and the impact of the news on it. So here we only choose news up to September 2020.  The website of news: <https://www.mdpi.com/search?sort=pubdate&page_no=14&page_count=200&year_from=2020&year_to=2020&q=Covid&view=compact>
+
+
+(insert the monthly news and covid-19 cases plot in quarto file)
+
+The gray bars and gray line display the number of monthly news articles about COVID-19, while its axis corresponds to the right y-axis. The red line represents the total cases of covid-19 and corresponds to the left y-axis. (Note: Two y-axes are used here, so please be careful to distinguish between them)
+
+From the graph we can see that when the number of news increased significantly, the growth of new infectious cases is slowing down, most notably from April to May 2020. you can see the growth rate in the news releases in April(123.81%)  is significantly higher than the new  infectious cases' growth rates(26.34%).  Meanwhile, the growth rate of news releases was only 8.55% from June to July,  which means it increased very slowly, so that the new infectious cases increased extremely rapidly, approximately 89.01% from June to July 2020. This interesting phenomenon may also suggest that the news releases in the early stages of the pandemic was able to affect the new infectious cases  to some extent. 
+
+
+
+
+
+Reference ： https://www.cnn.com/2020/09/19/europe/europe-second-wave-coronavirus-intl/index.html
+Reference ：https://www.cbsnews.com/news/covid-cases-in-uk-surge-as-britain-and-other-european-nations-face-possible-second-lockdowns/
+Reference :https://www.sciencedirect.com/org/science/article/pii/S152614922400198X#secd5e2817 
+

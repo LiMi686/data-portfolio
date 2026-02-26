@@ -1,0 +1,34 @@
+"adm0_name","who_region","iso_3_code","first_epiwk","last_epiwk","case_total","death_total"
+"AFGHANISTAN","Eastern Mediterranean Region","AFG",2024-01-08,2024-10-21,155383,77
+"BANGLADESH","South-East Asia Region","BGD",2024-01-15,2024-10-21,278,0
+"BURUNDI","African Region","BDI",2024-01-01,2024-10-28,826,3
+"CAMEROON","African Region","CMR",2024-01-01,2024-04-22,49,0
+"COMOROS","African Region","COM",2024-02-05,2024-10-07,10549,152
+"DEMOCRATIC REPUBLIC OF THE CONGO","African Region","COD",2024-01-07,2024-10-06,26067,370
+"ETHIOPIA","African Region","ETH",2024-01-01,2024-10-07,25344,244
+"GHANA","African Region","GHA",2024-08-19,2024-10-07,11,0
+"HAITI","Region of the Americas","HTI",2024-01-08,2024-08-26,9630,142
+"INDIA","South-East Asia Region","IND",2024-01-01,2024-07-29,8519,43
+"IRAQ","Eastern Mediterranean Region","IRQ",2024-10-28,2024-10-28,556,0
+"KENYA","African Region","KEN",2024-01-15,2024-08-05,613,5
+"LEBANON","Eastern Mediterranean Region","LBN",2024-10-14,2024-10-14,1,0
+"MALAWI","African Region","MWI",2024-01-01,2024-10-14,324,4
+"MAYOTTE","European Region","MYT",2024-04-22,2024-07-29,221,2
+"MOZAMBIQUE","African Region","MOZ",2024-01-01,2024-07-15,8132,18
+"MYANMAR","South-East Asia Region","MMR",2024-07-01,2024-10-21,6052,0
+"NEPAL","South-East Asia Region","NPL",2024-07-22,2024-09-23,95,0
+"NIGER","African Region","NER",2024-08-26,2024-10-21,1027,21
+"NIGERIA","African Region","NGA",2024-01-22,2024-10-28,17117,603
+"PAKISTAN","Eastern Mediterranean Region","PAK",2024-01-01,2024-10-07,65995,0
+"SOMALIA","Eastern Mediterranean Region","SOM",2024-01-01,2024-09-30,19640,138
+"SOUTH AFRICA","African Region","ZAF",2024-01-29,2024-04-01,11,0
+"SOUTH SUDAN","African Region","SSD",2024-10-21,2024-10-21,49,1
+"SUDAN","Eastern Mediterranean Region","SDN",2024-01-01,2024-10-21,30362,843
+"SYRIAN ARAB REPUBLIC","Eastern Mediterranean Region","SYR",2024-01-01,2024-08-26,10563,0
+"THAILAND","South-East Asia Region","THA",2024-07-29,2024-07-29,5,0
+"TOGO","African Region","TGO",2024-07-22,2024-10-28,104,10
+"UGANDA","African Region","UGA",2024-01-29,2024-05-13,89,5
+"UNITED REPUBLIC OF TANZANIA","African Region","TZA",2024-01-01,2024-10-21,7248,114
+"YEMEN","Eastern Mediterranean Region","YEM",2024-01-01,2024-09-09,36404,159
+"ZAMBIA","African Region","ZMB",2024-01-01,2024-06-24,20219,637
+"ZIMBABWE","African Region","ZWE",2024-01-01,2024-06-24,20033,399
