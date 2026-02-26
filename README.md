@@ -13,10 +13,10 @@ LinkedIn: [https://www.linkedin.com/in/li-mi-330upup/](https://www.linkedin.com/
 <table>
   <tr>
     <td align="center" width="50%">
-      <img src="https://raw.githubusercontent.com/LiMi686/data-portfolio/main/Data%20Visualization/Data%20Visulization%20Challenge%20in%20R/Heatmap%20of%20Spread%20of%20COVID.png" width="100%">
+      <img src="https://raw.githubusercontent.com/LiMi686/data-portfolio/main/Data%20Visualization/Data%20Visulization%20Challenge%20in%20R/Resident%20Population%20Change.png" width="100%">
     </td>
     <td align="center" width="50%">
-      <img src="https://raw.githubusercontent.com/LiMi686/data-portfolio/main/Data%20Visualization/Data%20Visulization%20Challenge%20in%20R/Resident%20Population%20Change.png" width="100%">
+      <img src="https://raw.githubusercontent.com/LiMi686/data-portfolio/main/Data%20Visualization/Data%20Visulization%20Challenge%20in%20R/Heatmap%20of%20Spread%20of%20COVID.png" width="100%">
     </td>
   </tr>
 </table>
