@@ -14,9 +14,11 @@ LinkedIn: [https://www.linkedin.com/in/li-mi-330upup/](https://www.linkedin.com/
 
 <!-- First row -->
 
-<img src="https://raw.githubusercontent.com/LiMi686/data-portfolio/main/Data%20Visualization/Data%20Visulization%20Challenge%20in%20R/Resident%20Population%20Change.png" height="320">
+<img src="https://raw.githubusercontent.com/LiMi686/data-portfolio/main/Data%20Visualization/Data%20Visulization%20Challenge%20in%20R/Resident%20Population%20Change.png"
+     style="height:240px; width:auto; max-width:48%;">
 
-<img src="https://raw.githubusercontent.com/LiMi686/data-portfolio/main/Data%20Visualization/Data%20Visulization%20Challenge%20in%20R/Heatmap%20of%20Spread%20of%20COVID.png" height="320">
+<img src="https://raw.githubusercontent.com/LiMi686/data-portfolio/main/Data%20Visualization/Data%20Visulization%20Challenge%20in%20R/Heatmap%20of%20Spread%20of%20COVID.png"
+     style="height:240px; width:auto; max-width:48%;">
 
 </p>
 
