@@ -14,9 +14,18 @@ We ingest the Brazilian E-Commerce Public Dataset by Olist into a Snowflake data
 - **Feature engineering**: temporal, ratio-based, customer-level, and order-level metrics  
 - **Modeling**: RFM scoring and K-Means clustering to uncover customer segments  
 
+
+## Results
+---
+<p align="center">
+  <img src="https://github.com/LiMi686/data-portfolio/blob/main/Cloud-Based%20E-Commerce%20Customer%20Analytics/Radar%20Chart.png" width="700">
+</p>
+
+For detailed explanations, please refer to the project report.
 ---
 
 ## Data Sources
 
 - **Kaggle**: Brazilian E-Commerce Public Dataset by Olist  
   - https://www.kaggle.com/datasets/olistbr/brazilian-ecommerce/data  
+
