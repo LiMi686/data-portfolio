@@ -70,7 +70,7 @@ This is a group project, we designed and implemented a normalized relational dat
 <img align="left" width="300"
 src="https://github.com/LiMi686/data-portfolio/blob/83d388edcd3a7f8e71dfd551d2d947cb8859ed86/Cloud-Based%20E-Commerce%20Customer%20Analytics/Brazilian%20E-Commerce%20Public%20Dataset%20by%20Olist/print.jpg">
 
-### [Cloud-Based E-Commerce Customer Analytics](https://github.com/LiMi686/data-portfolio/blob/a09adf2a03e7079cc4601f360b9f157b49339a93/Cloud-Based%20E-Commerce%20Customer%20Analytics/Project%20Report.pdf)
+### [Cloud-Based E-Commerce Customer Analytics](https://github.com/LiMi686/data-portfolio/blob/ca5c3b67e0c038d0ea25dae5e8fc9e9d91d35b62/Cloud-Based%20E-Commerce%20Customer%20Analytics/README.md)
 
 In this project, we developed a cloud-based customer analytics pipeline using Snowflake and Python to analyze e-commerce behavioral data. After performing feature engineering and aggregating customer-level metrics, we applied RFM analysis and K-Means clustering to identify customer segments. The resulting clusters provide insights into spending patterns, satisfaction levels, and delivery performance.
 
