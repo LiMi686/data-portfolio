@@ -4,25 +4,6 @@ This repository contains a project regarding to Data Warehousing and Analytics i
 
 ---
 
-## Table of Contents
-
-1. [Overview](#overview)  
-2. [Data Sources](#data-sources)  
-3. [Project Structure](#project-structure)  
-4. [Prerequisites](#prerequisites)  
-5. [Setup & Installation](#setup--installation)  
-6. [Data Preparation](#data-preparation)  
-7. [Feature Engineering](#feature-engineering)  
-8. [Unsupervised Learning](#unsupervised-learning)  
-   - [RFM Analysis] 
-   - [K-Means Clustering](#k-means-clustering)  
-9. [Results & Insights](#results--insights)  
-10. [Visualizations](#visualizations)  
-11. [Future Work](#future-work)  
-12. [Authors](#authors)   
-
----
-
 ## Overview
 
 We ingest the Brazilian E-Commerce Public Dataset by Olist into a Snowflake data warehouse, clean and merge eight interrelated tables into a single pandas DataFrame, and then perform unsupervised customer segmentation. Key steps include:
