@@ -20,18 +20,3 @@ We ingest the Brazilian E-Commerce Public Dataset by Olist into a Snowflake data
 
 - **Kaggle**: Brazilian E-Commerce Public Dataset by Olist  
   - https://www.kaggle.com/datasets/olistbr/brazilian-ecommerce/data  
-
----
-
-## Project Structure
-
-```text
-├── data/  
-│   └── raw_csvs/               # Original CSV files  
-├── notebooks/  
-│   ├── 01_data_prep.ipynb      # Snowflake ingestion & cleaning  
-│   ├── 02_feature_engineering.ipynb  
-│   └── 03_modeling.ipynb       # RFM & K-Means clustering  
-├── src/                         # (optional) helper scripts  
-├── README.md                    # This file  
-└── requirements.txt             # Python dependencies  
