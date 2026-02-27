@@ -18,7 +18,7 @@ We ingest the Brazilian E-Commerce Public Dataset by Olist into a Snowflake data
 ## Results
 ---
 <p align="center">
-  <img src="https://github.com/LiMi686/data-portfolio/blob/main/Cloud-Based%20E-Commerce%20Customer%20Analytics/Radar%20Chart.png" width="700">
+  <img src="https://github.com/LiMi686/data-portfolio/blob/main/Cloud-Based%20E-Commerce%20Customer%20Analytics/Radar%20Chart.png" width="500">
 </p>
 
 For detailed explanations, please refer to the project report.
