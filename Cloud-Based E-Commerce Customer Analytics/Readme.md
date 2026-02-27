@@ -22,7 +22,10 @@ We ingest the Brazilian E-Commerce Public Dataset by Olist into a Snowflake data
 </p>
 
 <p align="center">
-  <sub>For detailed explanations, please refer to the <a href="./report/OLIST_Customer_Segmentation_Report.pdf">Project Report</a>.</sub>
+  <small>
+    For detailed explanations, please refer to the 
+    <a href="https://github.com/LiMi686/data-portfolio/blob/a09adf2a03e7079cc4601f360b9f157b49339a93/Cloud-Based%20E-Commerce%20Customer%20Analytics/Project%20Report.pdf">Project Report</a>.
+  </small>
 </p>
 ---
 
