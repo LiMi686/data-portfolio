@@ -6,7 +6,7 @@ This article is simply the logic I am using for my own job search. I know the jo
 
 At the same time, most of us are not lucky enough to live well without working. So building a career is something we have to take seriously.
 
-In my opinion, the core skills needed for data-related roles in 2026 are **business understanding + data skills + the ability to use AI tools**. This article is simply about how I think about finding a job and how I approach the process.
+In my opinion, the core skills needed for data-related roles in 2026 are [**business understanding + data skills + the ability to use AI tools**]. This article is simply about how I think about finding a job and how I approach the process.
 
 
 
@@ -74,7 +74,7 @@ After researching the industry and identifying promising companies, the next ste
 
 Then connect your past experiences, projects, and skills with the requirements of the role. Highlight how your background matches the company’s needs and how your experience can contribute to the team.
 
-## 6.on-the-job growth plan
+## 6.On-the-job growth plan
 If the application is successful, it is important to have a clear plan for professional growth in the role. This includes setting goals for the first few months, understanding daily responsibilities, and continuously building industry-specific knowledge.
 
 A simple development roadmap might include:
