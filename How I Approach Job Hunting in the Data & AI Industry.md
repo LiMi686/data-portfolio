@@ -46,7 +46,7 @@ There are several reasons why Series A or Series B startups can be attractive:
 - **Faster learning and real industry experience**  
   Startups often provide intense, hands-on experience in a rapidly growing industry. Even if the company fails or layoffs occur, the experience gained can still help you find new opportunities.
 
-  ## 4. Which companies in Series A/B rounds are worth joining?
+## 4. Which companies in Series A/B rounds are worth joining?
 
 After identifying promising industries, the next step is to research startups that have recently raised **Series A or Series B funding**. At this stage, companies usually have validated products and early market traction, but still have significant growth potential.
 
@@ -74,7 +74,7 @@ After researching the industry and identifying promising companies, the next ste
 
 Then connect your past experiences, projects, and skills with the requirements of the role. Highlight how your background matches the company’s needs and how your experience can contribute to the team.
 
-## 6.On-the-job growth plan
+## 6. On-the-job growth plan
 If the application is successful, it is important to have a clear plan for professional growth in the role. This includes setting goals for the first few months, understanding daily responsibilities, and continuously building industry-specific knowledge.
 
 A simple development roadmap might include:
