@@ -1,6 +1,6 @@
 # How I Approach Job Hunting in the Data & AI Industry
 
-I believe many people have experienced nights during job hunting when anxiety makes it hard to fall asleep. This article was written during one of those moments. The reason of writing this article was to organize my thoughts more clearly and ease my anxiety. The ideas in this article are inspired by advice from senior students, videos I watched online, and conversations I had with people working in the industry.
+I believe many people have experienced nights during job hunting when anxiety makes it hard to fall asleep. This article was written during those moments. The reason of writing this article was to organize my thoughts more clearly and ease my anxiety. The ideas in this article are inspired by advice from senior students, videos I watched online, and conversations I had with people working in the industry.
 
 ## Before We Start
 
@@ -20,9 +20,9 @@ Okay, let's move on to the first step!
 
 
 ## 1. Identifying High-Growth Industries through Government Policy
-Government strategic plans often reflect the industries that a country intends to prioritize over the next several years, such as technological innovation, industrial upgrading, and national security–related sectors. These policy signals tend to guide the flow of capital, research funding, and talent toward specific industries, making them an important reference when identifying sectors with long-term growth potential.
+Government strategic plans often show which industries a country plans to support in the coming years, such as technological innovation, industrial upgrading, and national security–related sectors. These policies often guide where capital, research funding, and talent will go. Because of this, they can be a useful reference when identifying industries with long-term growth potential.
 
-By reviewing government policy documents, technology roadmaps, and national strategic initiatives, it is possible to identify industries that are likely to experience sustained growth. In addition to widely discussed sectors such as **AI**, **Robotics**, **Big Data**, several other industries receive strong policy support but attract relatively less public attention. These sectors may also present significant long-term growth opportunities. Examples include:
+By reviewing government policy documents, technology roadmaps, and national strategies, we can identify industries that are likely to grow in the long run. In addition to widely discussed sectors such as **AI**, **Robotics**, and **Big Data**, there are also other industries that receive strong policy support but attract less public attention. These sectors may also offer significant long-term growth opportunities.They are:
 - **Semiconductors & Advanced Computing**
 - **Quantum Technology**
 - **Cybersecurity and Digital Infrastructure**
