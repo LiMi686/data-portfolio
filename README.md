@@ -49,8 +49,6 @@ src="FengMian.png">
 
 An LLM-powered system that connects policy analysis, industry research, company analysis, role matching, and application preparation into a continuous, end-to-end career planning workflow. 
 
----
-
 
 ---
 
