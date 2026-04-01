@@ -43,7 +43,7 @@ LinkedIn: [https://www.linkedin.com/in/li-mi-330upup/](https://www.linkedin.com/
 ---
 
 <img align="left" width="300" 
-src="FengMian.png">
+src="assets/readme/ai-career-planning-cover.png">
 
 ### [Layered Progressive Career Strategy System](https://github.com/LiMi686/v2-web-resume-flow)
 
@@ -125,4 +125,3 @@ I implemented association rule mining using the Apriori algorithm to identify fr
   <img src="https://github.com/LiMi686/data-portfolio/blob/main/Certificates/HCIA%20AI.png" width="30%" />
   <img src="https://github.com/LiMi686/data-portfolio/blob/main/Certificates/Apsara%20Clouder.png" width="30%" />
 </p>
-
