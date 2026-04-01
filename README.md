@@ -47,7 +47,7 @@ src="FengMian.png">
 
 ### [Layered Progressive Career Strategy System](https://github.com/LiMi686/v2-web-resume-flow)
 
-An LLM-powered system that connects policy analysis, industry research, company analysis, role matching, and application preparation into a continuous, end-to-end career planning workflow. 
+An LLM-powered system that connects policy analysis, industry research, company analysis, role matching, and application preparation into a continuous, end-to-end career planning workflow. Built using Gemini API with prompt engineering to enable structured, step-by-step decision-making.
 
 
 ---
