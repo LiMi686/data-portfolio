@@ -1,6 +1,6 @@
 # Data Science Portfolio – Li Mi
 
-This Portfolio is a compilation of all the Data Science and Data Analysis projects I have done for academic, self-learning and hobby purposes. This portfolio also contains my Achievements, skills, and certificates. It is updated on the regular basis.
+This Portfolio is a compilation of the Data Science and Data Analysis projects I have done for academic, self-learning and hobby purposes. This portfolio also contains my Achievements, skills, and certificates. It is updated on the regular basis.
 
 I believe there are three core professional competencies that data science graduates need today, and I am currently working to continuously improve my skills in these three areas, and all of my projects and internship experiences have been centered around them:  **Business Understanding** + **data analytics** + **AI/LLM applications**.
 
