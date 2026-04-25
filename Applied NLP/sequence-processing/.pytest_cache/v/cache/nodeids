@@ -1,0 +1,9 @@
+[
+  "test.py::test_create_embedding_matrix",
+  "test.py::test_create_model",
+  "test.py::test_create_model_with_embeddings",
+  "test.py::test_format_examples",
+  "test.py::test_get_vocabulary",
+  "test.py::test_make_predictions",
+  "test.py::test_train_model"
+]

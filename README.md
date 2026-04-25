@@ -100,6 +100,16 @@ I implemented association rule mining using the Apriori algorithm to identify fr
 
 ### Micro Projects 
 
+  - [Commonsense Validation with Fine-tuned BERT](https://github.com/LiMi686/data-portfolio/blob/main/Applied%20NLP/pre-trained-lm/pretrainedlmA.ipynb): Fine-tuned a pre-trained language model to determine which of two sentences violates common sense, using SemEval2020 Task 4 data.
+
+  - [Multiple Choice Reasoning with Fine-tuned BERT](https://github.com/LiMi686/data-portfolio/blob/main/Applied%20NLP/pre-trained-lm/pretrainedlmB.ipynb): Fine-tuned a pre-trained language model on a multiple choice task requiring selection of the best explanation for a commonsense statement.
+
+  - [Sequence Labeling with RNN](https://github.com/LiMi686/data-portfolio/blob/main/Applied%20NLP/sequence-processing/sequencelabeling.ipynb): Built a recurrent neural network for sequence labeling, initialized with GloVe pre-trained word embeddings.
+
+  - [Relation Extraction with CNN](https://github.com/LiMi686/data-portfolio/blob/main/Applied%20NLP/sequence-processing/relationextraction.ipynb): Built a convolutional neural network to classify semantic relations between entity pairs in sentences.
+
+  - [Text Semantic Similarity](https://github.com/LiMi686/data-portfolio/blob/main/Applied%20NLP/text-similarity/textsimilarity.ipynb): Computed sentence-level similarity using cosine similarity and Word Mover's Distance on word embeddings via gensim.
+
   - [Neural Network Architecture Comparison](https://github.com/LiMi686/data-portfolio/blob/f9199c4b003225146c2d75aa29d6b970c8117262/Neural%20Network_Tensorflow/Architecture%20Comparison/Readme.md): compare multiple neural network architectures, including deep vs. wide networks, ReLU vs. tanh activation functions, dropout vs. non-dropout networks, and early stopping vs. non-early stopping strategies.
 
   - [Multi-label Text Classification](https://github.com/LiMi686/data-portfolio/blob/8595a480de9aa7b6eba78521614f3012ce01c98b/Distilroberta_hands%20up/README.md): I implemented a multi-label text classification pipeline using the DistilRoBERTa transformer model with 85% accuracy. 

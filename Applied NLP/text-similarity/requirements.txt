@@ -1,0 +1,12 @@
+ipython==8.18.1
+jupyter==1.0.0
+notebook==7.2.1
+pytest==8.3.2
+pandas==2.2.2
+spacy==3.7.5
+numpy==1.26.4
+scikit-learn==1.5.1
+pot==0.9.4
+gensim==4.3.3
+scipy==1.13.1
+

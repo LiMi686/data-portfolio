@@ -1,0 +1,7 @@
+{
+  "test.py::test_load_model_b": true,
+  "test.py::test_preprocess_data_b": true,
+  "test.py::test_create_training_arguments_b": true,
+  "test.py::test_create_trainer_b": true,
+  "test.py::test_make_predictions_b": true
+}

@@ -1,0 +1,12 @@
+[
+  "test.py::test_create_trainer_a",
+  "test.py::test_create_trainer_b",
+  "test.py::test_create_training_arguments_a",
+  "test.py::test_create_training_arguments_b",
+  "test.py::test_load_model_a",
+  "test.py::test_load_model_b",
+  "test.py::test_make_predictions_a",
+  "test.py::test_make_predictions_b",
+  "test.py::test_preprocess_data_a",
+  "test.py::test_preprocess_data_b"
+]

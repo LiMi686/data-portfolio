@@ -1,0 +1,7 @@
+# Large embedding files
+Applied NLP/sequence-processing/glove/
+
+# Python cache
+__pycache__/
+*.pyc
+.pytest_cache/

@@ -1,0 +1,7 @@
+[
+  "test.py::test_cosine_similarity",
+  "test.py::test_load_model",
+  "test.py::test_process_sentences",
+  "test.py::test_scale_similarities",
+  "test.py::test_word_movers_similarity"
+]

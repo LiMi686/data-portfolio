@@ -1,0 +1,601 @@
+id,FalseSent,reason
+29,a dog is taken to a pool after getting sick,a pool has no medical attention for animals
+29,a dog is taken to a pool after getting sick,A pool doesn't have doctors.
+29,a dog is taken to a pool after getting sick,A pool doesn't have medicine to fix the dog.
+31,A boy shuts down,"A boy can fall asleep, but a boy cannot shut down"
+31,A boy shuts down,"Humans don't usually shut down, shut down is typically used to describe technology."
+31,A boy shuts down,A human being cannot shut down
+33,I play games on my Gas stove,Gas stove is equipment to cook food
+33,I play games on my Gas stove,A gas stove is for cooking.
+33,I play games on my Gas stove,A gas stove is not a toy.
+35,A boy turns off the door,A door can be closed but a door cannot be turned off
+35,A boy turns off the door,A door cannot be turned off.
+35,A boy turns off the door,A door is never on so can't be turned off.
+39,he kept a chair inside the fridge,chair is bigger than the fridge
+39,he kept a chair inside the fridge,A chair would not fit inside a fridge.
+39,he kept a chair inside the fridge,A chair is too big to go in a fridge.
+96,they put on ghillie suits to go outside,shoes are needed to walk outside
+96,they put on ghillie suits to go outside,A ghillie suit is for niche purpose.
+96,they put on ghillie suits to go outside,Ghillie suits aren't worn outside.
+106,A sheep shops at Walmart,Walmart is a store for persons not animals
+106,A sheep shops at Walmart,Sheep do not shop anywhere.
+106,A sheep shops at Walmart,Sheep do not shop
+107,You can not get drunk from alcohol.,"Alcohol is the only thing you can get drunk from and by drinking it, your brain becomes drunk."
+107,You can not get drunk from alcohol.,"Alcohol, by it's chemical nature,  has an intoxicating effect."
+107,You can not get drunk from alcohol.,Drinking alcohol will eventually get a person drunk.
+119,He was changing tv channels with screwdriver,Screwdriver is a passive mechanical tool
+119,He was changing tv channels with screwdriver,Screwdrivers cannot control a tv.
+119,He was changing tv channels with screwdriver,A screwdriver does not control a television
+251,People went to restaurant to pray,Restaurant is a place to eat and no one prays there
+251,People went to restaurant to pray,RESTAURANT IS A PLACE OF EATING
+251,People went to restaurant to pray,"While you could pray at a restaurant, it is not typically a place where people go to do so.  You go to a restaurant toeat."
+304,The ferry crossed the river on the car.,A ferry cannot fit on a car.
+304,The ferry crossed the river on the car.,A ferry is much bigger than the car.
+304,The ferry crossed the river on the car.,A ferry is to big to fit on a car and a car cannot cross a river
+321,Water is a drink with brown colour,"Water has got no color, it is transparent"
+321,Water is a drink with brown colour,"Water is clear.  If it is brown, something is wrong and you shouldn't drink it."
+321,Water is a drink with brown colour,Water is clear.
+360,There are four mountains around the table,Mountains need a great space and cannot be so close to a table
+360,There are four mountains around the table,Mountains are too big to be around a table
+360,There are four mountains around the table,"Tables are usually placed in rooms, and there can't be mountains in rooms"
+439,The driver started the car engine with pen,Pen is an object to write
+439,The driver started the car engine with pen,A pen can not start a car
+439,The driver started the car engine with pen,A pen doesn't start engines
+510,English is a universal bird,English is a language
+510,English is a universal bird,ENGLISH IS A LANGUAGE
+510,English is a universal bird,English is not a bird
+576,He went to the super market to buy parents,Parents are relations by blood and are not things sold in super market
+576,He went to the super market to buy parents,He cannot buy parents in the super markets.
+576,He went to the super market to buy parents,"Parents aren't sold at supermarkets, you are born with them."
+582,Cockroaches are white insects,Cockroaches that inhabit the soil are a type of insect with many legs and black or brown
+582,Cockroaches are white insects,Cockroaches are dark-colored.
+582,Cockroaches are white insects,Cockroaches are dark in color
+621,You need a waffle maker to call someone.,Waffle makers are used to cook waffles.
+621,You need a waffle maker to call someone.,A waffle maker does not have the electronics/ability to make calls.
+621,You need a waffle maker to call someone.,A waffle maker is used to make waffles.
+713,A comb can be used to tape television show.,No one uses comb to record on television.
+713,A comb can be used to tape television show.,A comb is for your hair.  It does not have the electronics/ability to tape anything.
+713,A comb can be used to tape television show.,A comb has no ability to make recordings and is used to style hair.
+735,He put worms on his menu.,Worms cannot be put on a menu.
+735,He put worms on his menu.,It would be silly to put worms on a menu.
+735,He put worms on his menu.,worms should not be on the table
+764,When you are sick you go to a lawyer,Lawyers deal with legal matter
+764,When you are sick you go to a lawyer,Lawyer cannot do health checkup and prescribe medicines.
+764,When you are sick you go to a lawyer,A lawyer does not treat sickness
+765,He bought a truck at the local grocery store.,Grocery stores don't sell trucks.
+765,He bought a truck at the local grocery store.,A grocery store does not sell trucks
+765,He bought a truck at the local grocery store.,Trucks aren't grocery
+799,A wallet contains teddies,Teddies cannot enter wallets as tickets can
+799,A wallet contains teddies,Teddies are big fluffy stuffed animals.
+799,A wallet contains teddies,Because the teddies are too big while the wallet is small.
+952,Ice is more slippery when melted.,"Melted ice, water, is less slippery."
+952,Ice is more slippery when melted.,Ice becomes water when it is melted
+952,Ice is more slippery when melted.,Ice is frozen and not melted
+970,He filled up the bathtub with fire,Bathtubs don't hold fire
+970,He filled up the bathtub with fire,fire is not a liquid to be filled
+970,He filled up the bathtub with fire,Fire does not go in a bathtub.
+971,Musicians have a great eye,You do not need an excellent eye to be able to be a musician
+971,Musicians have a great eye,eyes cannot hear music
+971,Musicians have a great eye,Musicians does not have great eye.
+993,he used water for hand sanitizing,water alone cannot kill the germs completely
+993,he used water for hand sanitizing,water does not kill germs
+993,he used water for hand sanitizing,water cannot kill germs
+1056,I skated on the ice without ice skates.,You can't skate on ice unless you have ice skates on.
+1056,I skated on the ice without ice skates.,"you can't skate on ice without skates, you would fall and slide all over the place immediately"
+1056,I skated on the ice without ice skates.,you cant ice skate without skates.
+1068,i just take every decision by my leg,Leg has no brain and it can't think as own
+1068,i just take every decision by my leg,The leg does not think.
+1068,i just take every decision by my leg,One cannot think with their leg.
+1123,I ate an aeroplane for lunch.,"Aeroplanes are too large to eat and are made of metal, which is inedible."
+1123,I ate an aeroplane for lunch.,Aeroplanes are not food
+1123,I ate an aeroplane for lunch.,aeroplanes are not food
+1188,The car is filled with hot lava,Lava would melt the car
+1188,The car is filled with hot lava,lava will burnt the car
+1188,The car is filled with hot lava,A car would be destroyed if it were filled with hot lava.
+1224,Minecraft is a perfect representation of reality,Minecraft graphics are not realistic
+1224,Minecraft is a perfect representation of reality,videogame can not represent reality
+1224,Minecraft is a perfect representation of reality,miecraft is a game it does not represent reality in any way
+1261,The boy drove his scissors to school.,Scissors are not a vehicle.
+1261,The boy drove his scissors to school.,"Scissors are for cutting paper, they cannot drive."
+1261,The boy drove his scissors to school.,Scissors cannot be driven
+1315,a gun can be used for feed people,no one use gun for feed people
+1315,a gun can be used for feed people,Guns cannot feed people.
+1315,a gun can be used for feed people,gun is not for eat
+1347,He bought a drink from the police station,Police station is not a place to sell things
+1347,He bought a drink from the police station,The police station doesn't sell drinks.
+1347,He bought a drink from the police station,"Drinks aren't sold at police station, only bonds"
+1512,She went to the butcher to have her hair cut,Butchers don't cut hair
+1512,She went to the butcher to have her hair cut,You buy meat at a butcher shop.
+1512,She went to the butcher to have her hair cut,Work of a butcher is to cut animals not hair.
+1513,You are likely to find rivers in a library,rivers are much bigger than books
+1513,You are likely to find rivers in a library,A river is full of water.
+1513,You are likely to find rivers in a library,A library does not contain rivers.
+1731,People use electricity to buy things,It is impossible to buy things with electricity
+1731,People use electricity to buy things,Electricity is not a form of currency
+1731,People use electricity to buy things,"Electricity is a current, we can't use to buy things."
+1760,He types using a piano.,"Keyboard is a computer accessory used to type, while piano is a musical instrument."
+1760,He types using a piano.,Pianos do not have the kind of keys for typing.
+1760,He types using a piano.,A piano is played like an instrument.
+1862,He ate the bench.,Benches aren't edible.
+1862,He ate the bench.,the bench is not food
+1862,He ate the bench.,you can't eat a bench.
+1963,A car is used for skiing.,Cars are not used to ski
+1963,A car is used for skiing.,Skiing cannot done by a car.
+1963,A car is used for skiing.,Cars are for driving.
+2020,Scuba divers and sharks can fly,swimming is not flying
+2020,Scuba divers and sharks can fly,Humans and sharks cannot fly.
+2020,Scuba divers and sharks can fly,SHARK IS AN INSECT IT IS NOT A BIRD TO FLY
+2067,People use mugs to drink laptops.,Laptops cannot fit in mugs and you cannot drink a laptop.
+2067,People use mugs to drink laptops.,LAPTOPS ARE NOT A DRINK
+2067,People use mugs to drink laptops.,Laptops are machines and are not designed to be ingested.
+2165,She came to dance class in a flamingo.,Flamingoes are not clothing.
+2165,She came to dance class in a flamingo.,Flamingo is a bird that can't wear.
+2165,She came to dance class in a flamingo.,She cannot wear a flamingo to dance class because it is an animal.
+2232,A diaper wears babies.,A diaper is for the purpose of filling with a baby's waste and cannot wear a baby.
+2232,A diaper wears babies.,Diaper can't wear babies.
+2232,A diaper wears babies.,"Diapers are worn, and do not wear anything."
+2249,The woman walked through the keyhole,A human cannot fit through a keyhole
+2249,The woman walked through the keyhole,Women do not fit through a keyhole
+2249,The woman walked through the keyhole,A keyhole is too small for a woman to walk through.
+2304,Books can read people.,A book is an inanimate object and cannot read anything.
+2304,Books can read people.,Books are not conscious and can't read.
+2304,Books can read people.,Books are inanimate objects.
+2340,She wrote in her diary with a purple knife.,"A knife is used for cutting, not writing."
+2340,She wrote in her diary with a purple knife.,You can't write with a knife.
+2340,She wrote in her diary with a purple knife.,Knives are not tools of writing.
+2344,She put the cat in the dishwasher.,Dishwashers are not used to clean animals.
+2344,She put the cat in the dishwasher.,You do you put animals in the dishwasher.
+2344,She put the cat in the dishwasher.,CAT IS NOT A VESSEL TO PUT IN DISHWASSER
+2498,The computer has a heart to power it.,Computers do not have a heart.
+2498,The computer has a heart to power it.,Computers are inorganic and do not have hearts.
+2498,The computer has a heart to power it.,A computer is a machine not an animal
+2545,The boy put a hat on  his foot.,Hats go on your head while shoes go on your feet.
+2545,The boy put a hat on  his foot.,Hats do not go on feet.
+2545,The boy put a hat on  his foot.,The boy can not a hat on his foot.
+2592,She kicked the ceiling.,Ceilings are usually built too high to reach with a kick.
+2592,She kicked the ceiling.,A ceiling is too high to kick.
+2592,She kicked the ceiling.,The ceiling is too high to kick.
+2627,I pulled my hippo out of my pocket to take a picture.,A hippo cannot take pictures or fit into someone's pocket.
+2627,I pulled my hippo out of my pocket to take a picture.,Hippos don't fit in pockets.
+2627,I pulled my hippo out of my pocket to take a picture.,Hippos are very large and can not fit in pockets.
+2678,The flowers bloomed in the winter.,"Flowers need warmer weather and the right amount of moisture to bloom, like in the spring."
+2678,The flowers bloomed in the winter.,Flowers do not bloom in the winter since they do no grow when the weather is cold.
+2678,The flowers bloomed in the winter.,winter is too cold for flowers
+2750,I put my bedroom in my clock.,A bedroom cannot fit inside of a clock.
+2750,I put my bedroom in my clock.,Bedroom much bigger than in my clock.
+2750,I put my bedroom in my clock.,Bedroom is much bigger than the clock.
+2753,he saved money in the salon,salon is not a financial institution
+2753,he saved money in the salon,"A salon is where you go for a hair got, not to save money"
+2753,he saved money in the salon,Salon is not the place to keep money.
+2855,She painted her air,Air isn't something you can paint
+2855,She painted her air,Air is invisible  andcannot be painted
+2855,She painted her air,Air will not hold paint.
+2876,The ground fell from the tree.,A tree is planted in the ground.
+2876,The ground fell from the tree.,THE GROUND DOES NOT FELL FROM TREE
+2876,The ground fell from the tree.,the ground is already low and cannot fall.
+2894,having an iphone makes you a loser,people think highly of iphones
+2894,having an iphone makes you a loser,Iphone does not make you loser.
+2894,having an iphone makes you a loser,having an iphone makes you cool
+2908,Fortnite is a state of Mexico,"Fortnite is a video game, not a locality"
+2908,Fortnite is a state of Mexico,There is no such state in Mexico.
+2908,Fortnite is a state of Mexico,Fortnite is a game and not a state
+2927,He won the competition by sheer sadness,Sadness is not useful in winning competitions
+2927,He won the competition by sheer sadness,Sadness is not related to winning a competition.
+2927,He won the competition by sheer sadness,You don't win competitions with sadness.
+3006,The race car drives on one wheel,Cars need 4 wheels to drive
+3006,The race car drives on one wheel,car has minimum four wheels
+3006,The race car drives on one wheel,THE RACE CAR DRIVES NOT ON A CIRCLE
+3032,He rode a pineapple.,Pineapples do not move.
+3032,He rode a pineapple.,A pineapple is not a vehicle nor an animal.
+3032,He rode a pineapple.,Pineapples are not something that can be ridden.
+3039,The dog was eaten by the meat.,meat is the food and therefore cannot eat the dog.
+3039,The dog was eaten by the meat.,Meat is dead animals and dead animals do not eat.
+3039,The dog was eaten by the meat.,Meat is dead so it can not eat.
+3100,The astronaut flew to space in a submarine.,Submarines cannot fly
+3100,The astronaut flew to space in a submarine.,"Submarines are for underwater, not space."
+3100,The astronaut flew to space in a submarine.,Submarines can't travel to space.
+3122,Halloween is a Holiday in march,Halloween is a holiday that takes place every year on October 31st
+3122,Halloween is a Holiday in march,Halloween is celebrated on October 31st each year.
+3122,Halloween is a Holiday in march,HALLOWEEN IS ONLY IN OCTOBER NOT IN MARCH
+3145,Atlanta is the state capitol of Hawaii.,Honolulu is the state capitol of Hawaii.
+3145,Atlanta is the state capitol of Hawaii.,hawaii is not the state of atlanta
+3145,Atlanta is the state capitol of Hawaii.,delhi is the state capital of england.
+3154,"To see a film at a movie theater, a person needs to buy popcorn.",Popcorn is not necessary to get into a movie theater.
+3154,"To see a film at a movie theater, a person needs to buy popcorn.",Buying popcorn is not required but optional.
+3154,"To see a film at a movie theater, a person needs to buy popcorn.",a person does not need popcorn at all to watch a movie
+3160,Many cats like apples,Cats don't eat apples.
+3160,Many cats like apples,Cats do not like apples
+3160,Many cats like apples,Cats are carnivores.
+3305,My dog was singing old Sinatra tunes.,Dogs cannot sing.
+3305,My dog was singing old Sinatra tunes.,A dog cannot sing.
+3305,My dog was singing old Sinatra tunes.,Dogs do not sing.
+3337,The cat ran from the mouse.,Cats are not afraid of mice usually
+3337,The cat ran from the mouse.,Cats Don't run from mice.
+3337,The cat ran from the mouse.,A cat is far larger than a mouse
+3350,The clock is lazy,The clock is an object and cannot be lazy
+3350,The clock is lazy,Clocks can't be lazy.
+3350,The clock is lazy,Clock is running on battrey
+3399,I drove my apartment to Florida this summer.,One cannot drive an apartment.
+3399,I drove my apartment to Florida this summer.,apartment does not have wheels to drove
+3399,I drove my apartment to Florida this summer.,Apartment  cannot be driven to Florida.
+3465,I got an elephant to microwave for later.,An elephant is not meant to be microwaved and can not be microwaved because it is to big.
+3465,I got an elephant to microwave for later.,An elephant will not fit in a microwave.
+3465,I got an elephant to microwave for later.,An elephant is smaller than a microwave and wouldn't fit in it.
+3570,Phone stores can be found inside salesmen.,a building can't fit inside a human
+3570,Phone stores can be found inside salesmen.,stores of any kind cannot be found inside of a person
+3570,Phone stores can be found inside salesmen.,a phone store is much bigger than a salesman
+3723,Electric pencil sharpener is manually crank,Electric pencil sharpener does not require people to operate the pencil
+3723,Electric pencil sharpener is manually crank,Electric pencil sharpener does it automatically
+3723,Electric pencil sharpener is manually crank,Would not be electric if it still had to be powered manually.
+3787,If you want to visit a museum then you should take your tie.,tie is unnecessary when visiting museums.
+3787,If you want to visit a museum then you should take your tie.,Ties are not required in museums.
+3787,If you want to visit a museum then you should take your tie.,TIE IS NOT VISIT FOR MUSEUM
+3817,You can make wine with an oven,Wine is made in a barrel
+3817,You can make wine with an oven,wine is not cooking thing
+3817,You can make wine with an oven,Wine is never put in the oven.
+3857,studying for breathing requires time and effort,breathing is a innate ability
+3857,studying for breathing requires time and effort,Studying is not necessary for breathing.
+3857,studying for breathing requires time and effort,Breathing is an automatic response and does not require studying.
+3898,The milk flowed from the tap,The tap won't run milk in most cases
+3898,The milk flowed from the tap,"Milk comes in containers, usually plastic or glass."
+3898,The milk flowed from the tap,THE WATER FLOWED FROM THE TAP
+3912,The butterfly flies in the sky.,The sky is too high for a butterfly to fly.
+3912,The butterfly flies in the sky.,A butterfly cannot fly to great heights.
+3912,The butterfly flies in the sky.,The eagle flies in the sky.
+3973,You are likely to find a shark in a hole in the ground.,a shark lives in the ocean.
+3973,You are likely to find a shark in a hole in the ground.,Sharks live in the ocean.
+3973,You are likely to find a shark in a hole in the ground.,shark is not possible in the ground
+3999,Nancy used a soap dish to carry lunch to her company,A soap dish is for holding soap
+3999,Nancy used a soap dish to carry lunch to her company,NANCY USED A FOOD CONTAINER TO CARRY LUNCH TO HER COMPANY
+3999,Nancy used a soap dish to carry lunch to her company,Lunchboxes or paperbags are used to carry lunches to work.
+4003,If you want to kiss someone then you should clean your feet.,Your feet do no influence you when you kiss
+4003,If you want to kiss someone then you should clean your feet.,Feet are not usually involved in kissing.
+4003,If you want to kiss someone then you should clean your feet.,Feet are not used to kiss
+4049,There are cats swimming in the lake.,No cat can swim.
+4049,There are cats swimming in the lake.,Cats cannot swim in the lake.
+4049,There are cats swimming in the lake.,Cats don't enjoy the water.
+4071,Helen was so happy that he slept.,"When people are happy, they don't want to sleep."
+4071,Helen was so happy that he slept.,She was happy somebody got some sleep
+4071,Helen was so happy that he slept.,Happiness does not usually put people to sleep.
+4081,You might find a house stable in a manor house.,no one builds a house in another house.
+4081,You might find a house stable in a manor house.,A house stable is not a real thing and it is not in a manor house.
+4081,You might find a house stable in a manor house.,There is no such thing as a house stable
+4202,a fruit shop is for buying screws and nails,Fruit stores don't usually sell screws and nails
+4202,a fruit shop is for buying screws and nails,a fruit store sells only fruits and not tools
+4202,a fruit shop is for buying screws and nails,A FRUIT SHOP IS NOT SUITABLE FOR BUYING SCREWS AND NAILS
+4216,You may find a lion in the soil,Lion living on land
+4216,You may find a lion in the soil,Lions live in the Sahara
+4216,You may find a lion in the soil,Soil is not a place where lions might be discovered.
+4269,You want to eat the net,The net is not food
+4269,You want to eat the net,NET IS FOR SURF NOT TO EAT
+4269,You want to eat the net,net is not a food to eat
+4386,Cycling requires balcony.,you can't cycle on the balcony.
+4386,Cycling requires balcony.,balcony is not good place for cycling
+4386,Cycling requires balcony.,Balconies are too small to ride a bike on
+4513,Some chemistry can harm people.,chemistry is just a subject.
+4513,Some chemistry can harm people.,Chemistry has been very beneficial to medical development.
+4513,Some chemistry can harm people.,Chemistry is a subject and it can not harm people
+4516,he catches some horses in the ocean.,horse doesn't live in the ocean.
+4516,he catches some horses in the ocean.,horses must live on land
+4516,he catches some horses in the ocean.,HORSES IS NOT A FISH TO CATCH
+4521,Santa Claus is the legend of the East,The origin of Christmas is not in the East
+4521,Santa Claus is the legend of the East,santa claus livie in west
+4521,Santa Claus is the legend of the East,Santa Claus is the legend of the West
+4625,kissing someone is for showing your disgust,You don't want to kiss someone if you disgust them
+4625,kissing someone is for showing your disgust,You kiss someone to show love
+4625,kissing someone is for showing your disgust,We would not kiss someone we found repulsive
+4640,He wear sunglasses because he is short-sighted,Sunglasses doesn't help curing short sight
+4640,He wear sunglasses because he is short-sighted,Sunglasses are not prescription.
+4640,He wear sunglasses because he is short-sighted,You don't use sunglasses to solve sight problems.
+4684,Jack's mom praised him because he broke the plate,"Breaking a plate is not a good thing, people won't be praised because of it"
+4684,Jack's mom praised him because he broke the plate,Breaking a plate is a negative action that does not generate positive feedback.
+4684,Jack's mom praised him because he broke the plate,breaking dishes doesn't generate praise
+4695,"Don't eat too much salad, they are junk food",Salad is not junk food
+4695,"Don't eat too much salad, they are junk food","Reason: Salad is made of mostly vegetables, which are healthy."
+4695,"Don't eat too much salad, they are junk food","Salad is made of vegetables, which are good for you."
+4742,"The display is damaged, thus I can't hear anything","Display is used to display things, people will see them"
+4742,"The display is damaged, thus I can't hear anything",display isn't related to sound
+4742,"The display is damaged, thus I can't hear anything",A display is not heard.
+4747,Pants can bring people new knowledge,Pants cannot bring people new knowledge
+4747,Pants can bring people new knowledge,Pants are just for wearing
+4747,Pants can bring people new knowledge,New knowledge cannot be gained by the pants.
+4819,Making fire is not that easy for modern people,There are hundreds of ways for modern people to make fire
+4819,Making fire is not that easy for modern people,There are many commonly available devices and substances that can make fire.
+4819,Making fire is not that easy for modern people,Fire making is pretty easy currently
+4903,two man can't fall in love with each other,love has no relation with sex
+4903,two man can't fall in love with each other,Gay marriage is legal and common in many countries.
+4903,two man can't fall in love with each other,"It is possible for two men to be in love, which is the reason why the concept of homosexuality even exists."
+4947,Humans can breathe the Martian air directly,The Martian air is low in oxygen
+4947,Humans can breathe the Martian air directly,There is not enough oxygen in Martian air to sustain human life.
+4947,Humans can breathe the Martian air directly,it is not actually possible for humans to breathe martain air directly.
+4949,Man is the fastest animal,The tiger runs faster than the man
+4949,Man is the fastest animal,It is just a known fact that other animals are faster than man
+4949,Man is the fastest animal,There are many species of animals that can move faster than man.
+4993,I need to be patient to catch my schedule,Being patient cannot not make things quicker
+4993,I need to be patient to catch my schedule,waiting to catch up is a bad idea
+4993,I need to be patient to catch my schedule,Patience will further delay the schedule.
+5019,Having a sunbath at night will make people feel released,There is no sunlight during the night
+5019,Having a sunbath at night will make people feel released,It is impossible to take a sunbath at night.
+5019,Having a sunbath at night will make people feel released,The sun is not out at night.
+5202,this job takes me six planets to finish,human cannot use a whole planet now
+5202,this job takes me six planets to finish,There is no job which reasonably would require planets to finish it.
+5202,this job takes me six planets to finish,Planets are not a measure of time.
+5269,he couldn't sleep at morning after drinking tea,people sleep at night not morning
+5269,he couldn't sleep at morning after drinking tea,The morning is not usually when people are trying to fall asleep.
+5269,he couldn't sleep at morning after drinking tea,People do not typically sleep in the morning
+5272,"I feel cold, may I have a fridge?",a fridge only makes you feel cold
+5272,"I feel cold, may I have a fridge?",A fridge is used to make things cold.
+5272,"I feel cold, may I have a fridge?","then you`ll get colder, thats what fridges are for"
+5309,I have the lunch in the radio with my classmates,people cannot have lunch in the radio
+5309,I have the lunch in the radio with my classmates,You cannot be physically inside a radio
+5309,I have the lunch in the radio with my classmates,A canteen is a popular place to eat as whereas a radio is an instrument to be heard.
+5323,a magnet attracts plastic,magnet does not attracts plastic
+5323,a magnet attracts plastic,plastic is non magnetic
+5323,a magnet attracts plastic,Plastic does not contain the elements needed to be magnetic.
+5359,surgeons began to scrub their hands and arms with lotion before operating,the lotion can't clean hands well
+5359,surgeons began to scrub their hands and arms with lotion before operating,A lotion does not disinfect hands for surgery.
+5359,surgeons began to scrub their hands and arms with lotion before operating,Lotion does not disinfect hands
+5421,please lift the box down from the moon for me,no one can get the box on the moon easily now
+5421,please lift the box down from the moon for me,moon is not a place of putting things to lift it
+5421,please lift the box down from the moon for me,You cannot reach the moon
+5440,she took a pen and bit into it,no one can bit a pen or eat it
+5440,she took a pen and bit into it,Pen cannot be bit.
+5440,she took a pen and bit into it,A pen is not very easily bitten into and would be useless afterwards
+5527,this view is now being questioned by more and more tables,"tables do not ask questions, human does"
+5527,this view is now being questioned by more and more tables,tables is not a human to make a question
+5527,this view is now being questioned by more and more tables,tables don't have feelings
+5547,"He came out of the library, a large gun under his arm",there are books in library not guns
+5547,"He came out of the library, a large gun under his arm",Guns cannot be obtained from libraries
+5547,"He came out of the library, a large gun under his arm",Gun cannot be used in the library.
+5589,Cover the table with Mount Everest,Mount Everest is too big to be used as a table cover
+5589,Cover the table with Mount Everest,Mount Everest cannot be moved.
+5589,Cover the table with Mount Everest,Mount Everest is immovable and immense in size compared to a table.
+5653,There's not enough water in outer space for us to breathe.,"If you breathe in water, you will choke."
+5653,There's not enough water in outer space for us to breathe.,people breathe air
+5653,There's not enough water in outer space for us to breathe.,We breathe oxygen.
+5674,"My baby was allergic to my cat, so I decided to give the baby away.",Most parents would never give their babies away.
+5674,"My baby was allergic to my cat, so I decided to give the baby away.",giving a baby away is illegal
+5674,"My baby was allergic to my cat, so I decided to give the baby away.",a baby is different from a cat.
+5703,Kim is dating the garbage.,People don't have relationships with garbage.
+5703,Kim is dating the garbage.,garbage is a non living thing
+5703,Kim is dating the garbage.,garbage is not a person to date
+5794,I felt happy when my father passed away,parents passing away doesn't make one happy
+5794,I felt happy when my father passed away,If I like my Father I would not be happy when he passed awat.
+5794,I felt happy when my father passed away,It is commonly considerd a sad occasion when a family member passes away
+5861,I put my teacher into my backpack after class,people can't be put into the backpack
+5861,I put my teacher into my backpack after class,A teacher can't fit in a backpack.
+5861,I put my teacher into my backpack after class,the teacher is too big to fit in a backpack
+5910,people like to eat bread which has mildewed,mildewed bread tastes awful and is harmful to people's health
+5910,people like to eat bread which has mildewed,"Bread doesn't mildew, it molds, and can be very unhealthy for humans to eat."
+5910,people like to eat bread which has mildewed,This would make you sick.
+5970,he loves bread more than any other drinks,bread is not a drink
+5970,he loves bread more than any other drinks,Bread is not a type of liquid.
+5970,he loves bread more than any other drinks,"You eat bread, not drink it"
+6005,we can see the east wing because the exhibit is not open to the public today,people should abide by the rules when visiting museums
+6005,we can see the east wing because the exhibit is not open to the public today,If it's closed no one is allowed in.
+6005,we can see the east wing because the exhibit is not open to the public today,if its not open you cant see
+6033,human likes to have ugly appearance,no one likes to be ugly
+6033,human likes to have ugly appearance,NO one wants to be ugly
+6033,human likes to have ugly appearance,Humans desire to be beautiful
+6039,my arm gets hurt and bleeds out blue blood,no one's blood is in blue color
+6039,my arm gets hurt and bleeds out blue blood,When it bleeds it only oozes red color blood not blue.
+6039,my arm gets hurt and bleeds out blue blood,Blood isn't blue.
+6077,flowers need plastic to live,flowers don't need plastic to live
+6077,flowers need plastic to live,Plastic can't nourish a plant.
+6077,flowers need plastic to live,"flowers don't need plastic, they need water"
+6231,my friend married the dog he loves,human beings can't marry animals
+6231,my friend married the dog he loves,A person cannot get married to an animal.
+6231,my friend married the dog he loves,Marriage is normally between two humans not with their pets.
+6252,a duck walks on three legs,a duck has only two legs
+6252,a duck walks on three legs,Tripods have three legs.
+6252,a duck walks on three legs,A duck only has two legs.
+6292,Uncle wiped the diamond  on the bread,Diamonds cannot be eaten as food
+6292,Uncle wiped the diamond  on the bread,The bread is to soft.
+6292,Uncle wiped the diamond  on the bread,You cannot wipe the bread because the diamond is of solid matter.
+6340,Apple is up after falling,Apple has weight
+6340,Apple is up after falling,Apple cannot fly up.
+6340,Apple is up after falling,An apple cannot fall up as it defies gravity.
+6363,Lunch at noon is paper,Paper can not be eaten directly
+6363,Lunch at noon is paper,Paper is not edible.
+6363,Lunch at noon is paper,"The purpose of paper is for writing, not human consumption."
+6517,We wear cotton jackets in summer.,It's very hot to wear cotton jacketa in summer.
+6517,We wear cotton jackets in summer.,"We wear loose clothes like shirts,t-shirts in summer not jackets."
+6517,We wear cotton jackets in summer.,Cotton jackets are too warm for summer
+6590,People run on non-motorized lanes.,People are not non-motor vehicles.
+6590,People run on non-motorized lanes.,Non-motorized lanes is a place where people cannot run.
+6590,People run on non-motorized lanes.,People run on the sidewalk and not in a lane.
+6630,Human Respiratory Gas,Gas is poisonous
+6630,Human Respiratory Gas,human take oxygen from air and pop out CO2.
+6630,Human Respiratory Gas,Respiratory gas means any gas that takes part in the respiratory process
+6681,Stone is swimming,Stone is incapable of swimming
+6681,Stone is swimming,Stones sink.
+6681,Stone is swimming,Stones are known to sink when placed in water.
+6687,Schools should pay tuition fees,Schools should collect tuition fees
+6687,Schools should pay tuition fees,Tuition fees are not paid by schools.
+6687,Schools should pay tuition fees,Tuition fees cannot be paid by the schools.
+6743,Pulsation is a carbonated drink.,Pulsation does not contain carbonic acid
+6743,Pulsation is a carbonated drink.,The body needs blood.
+6743,Pulsation is a carbonated drink.,"Pulsation is an action, not a object"
+6789,lamp is sleeping.,lamp has no life
+6789,lamp is sleeping.,A lamp is an inanimate object.
+6789,lamp is sleeping.,Lamps don't require sleep to be able to function.
+6830,Black holes can reflect light,Black holes absorb light
+6830,Black holes can reflect light,Light cannot escape a Black hole.
+6830,Black holes can reflect light,"The gravity of black holes is strong to such a degree that light cannot escape them, and is not reflected."
+6843,Mirror can hold liquids.,Mirrors are flat and cannot hold liquids.
+6843,Mirror can hold liquids.,Mirrors are flat which would not efficiently hold liquid
+6843,Mirror can hold liquids.,"mirror is flat , it cannot hold anything"
+6897,There are many Seabirds in the sea.,Seabirds can't swim in the sea.
+6897,There are many Seabirds in the sea.,Seabirds live on the beach.
+6897,There are many Seabirds in the sea.,Seabirds roam around the sea but do not physically go under water.
+7051,"When there is a conflict with a friend, it should be solved by fighting.",Fighting is likely to lose friends.
+7051,"When there is a conflict with a friend, it should be solved by fighting.",Fighting does not resolve conflict.
+7051,"When there is a conflict with a friend, it should be solved by fighting.",Fighting is not a good way to solve conflicts.
+7058,There are many trees in the sun.,No trees can grow on the sun
+7058,There are many trees in the sun.,trees does not grow in very hot conditions
+7058,There are many trees in the sun.,Trees cannot be present in the sun as it is a burning ball of fire.
+7216,Boys now usually have a long braid,Boys don't like braids now
+7216,Boys now usually have a long braid,Boys have short hair.
+7216,Boys now usually have a long braid,Boys do not typically have hair long enough to braid.
+7231,I'm chatting with animals.,"Animals can't talk, they can't talk to people."
+7231,I'm chatting with animals.,Animals do not speak so one can only chat at the animals not with them.
+7231,I'm chatting with animals.,Animals can not understand human language and talk back
+7235,He likes to eat apple core.,The apple core is not suitable for eating.
+7235,He likes to eat apple core.,"Most people do not eat the apple cores, although science recently said that is where 90% of the healthy bacteria is."
+7235,He likes to eat apple core.,"The flesh of the apple is the part eaten, not the core."
+7438,Giraffes eat leaves from sea,Leaves are on the trees but not sea
+7438,Giraffes eat leaves from sea,There are no leaves in the sea.
+7438,Giraffes eat leaves from sea,Leaves grow on trees and not in sea
+7487,I can buy everything in Euro in the US,Euro is the currency in Europe but not in the US
+7487,I can buy everything in Euro in the US,I can buy everything in USD in the US.
+7487,I can buy everything in Euro in the US,"The US uses dollars, not Euros, to pay for things."
+7507,He makes coffee in the bread machine,The bread machine is used to make bread but not coffee
+7507,He makes coffee in the bread machine,You cannot make coffee in a bread machine.
+7507,He makes coffee in the bread machine,"Bread machine are used to make bread ,coffee can be made in the coffe machine only."
+7539,"His lens cover is broken, so he can not use it to take a photo","Lens cover only protects the lens, but will not affect taking photos"
+7539,"His lens cover is broken, so he can not use it to take a photo",You don't need a lens cover to take a photo
+7539,"His lens cover is broken, so he can not use it to take a photo",lens  cover is removed while taking a photo
+7640,Stone is often used as an incentive in training pet dogs.,Stone has no allure for pet dogs.
+7640,Stone is often used as an incentive in training pet dogs.,Dogs enjoy bones.
+7640,Stone is often used as an incentive in training pet dogs.,Dogd do not like stones.
+7770,"Nowadays, most people live shorter than they did in the past.",Most people are having a better life and thus live longer.
+7770,"Nowadays, most people live shorter than they did in the past.","Nowadays, medicine and health care is better than ever so people live longer."
+7770,"Nowadays, most people live shorter than they did in the past.","Through research and medical advances, people are living longer than they ever have."
+7791,Jumping and bouncing are allowed when taking the elevator.,Jumping and bouncing in the elevator may result in malfunction.
+7791,Jumping and bouncing are allowed when taking the elevator.,"For safety reasons, jumping and bouncing would never be allowed in an elevator."
+7791,Jumping and bouncing are allowed when taking the elevator.,You cannot jump and bounce in an elevator as this bothers others and is dangerous.
+7825,My mother keeps a tiger and takes care of it as it were her kid.,"A tiger is dangerous and fierce, which cannot be kept as a pet."
+7825,My mother keeps a tiger and takes care of it as it were her kid.,Tigers cannot be kept at home.
+7825,My mother keeps a tiger and takes care of it as it were her kid.,Tigers are not children and can harm you or kill you.
+7850,"He didn't reach the rank, so he got the certificate.",Certificates can only be issued to people whose scores meet the rank.
+7850,"He didn't reach the rank, so he got the certificate.",He needs to reach the rank to get the certificate.
+7850,"He didn't reach the rank, so he got the certificate.",Certificate is a proof of victory or position
+7887,"I am weary after this long journey, and I need a dance.","Dancing can't eliminate tiredness, on the contrary, it will consume more physical strength."
+7887,"I am weary after this long journey, and I need a dance.","People don't dance when they're tired from long journeys, they rest."
+7887,"I am weary after this long journey, and I need a dance.",You need lots of energy to dance
+7930,The main greenhouse gas is oxygen,Oxygen cannot cause the greenhouse effect
+7930,The main greenhouse gas is oxygen,"Oxygen is the gas that we breathe, not responsible for greenhouse effects"
+7930,The main greenhouse gas is oxygen,"The major atmospheric constituents, nitrogen (N 2), oxygen (O 2), and argon (Ar), are not greenhouse gases because molecules containing two atoms of the same element such as N 2 and O 2 have no net change in the distribution of their electrical charges when they vibrate, and monatomic gases such as Ar do not have vibrational modes, hence they are almost totally unaffected by infrared radiation."
+7938,People should wear short sleeves in winter,The snowy winter is very cold and short sleeves are not enough to keep out the cold
+7938,People should wear short sleeves in winter,Winter includes very cold temperatures so a short sleeve would not provide enough protection.
+7938,People should wear short sleeves in winter,You need long sleeves to stay warm.
+7942,he eats a lot of junk food so his eating habit is quite healthy,Junk food has unbalanced nutrition complements and is bad for health
+7942,he eats a lot of junk food so his eating habit is quite healthy,"Junk food is not healthy, less is more"
+7942,he eats a lot of junk food so his eating habit is quite healthy,Junk food contain many unhealthy elements
+7952,The moon looked as if it had fallen into the water and the monkey picked it up,The moon in the water is only its reflection ad cannot be picked up
+7952,The moon looked as if it had fallen into the water and the monkey picked it up,Monkeys cannot pick up the moon.
+7952,The moon looked as if it had fallen into the water and the monkey picked it up,Monkeys cannot lift the moon
+7966,We can drink from any river directly,"There are often many bacteria in the river water, which can not be drunk without treatment"
+7966,We can drink from any river directly,rivers contain substances harmful to human health
+7966,We can drink from any river directly,River water is too dirty for consumption.
+8020,Study hard to get bad grades,Studying hard helps get good grades
+8020,Study hard to get bad grades,You'll get bad grades if you don't study hard.
+8020,Study hard to get bad grades,Hard work usually generates good results.
+8080,The seawater is sour,"Seawater is rich in salt so it is salty, not sour"
+8080,The seawater is sour,Seawater is known for it's saltiness not being sour.
+8080,The seawater is sour,"Seawater is made of salt, and is therefore salty."
+8093,Mint can confuse the mind,Mint has a special aroma which makes one's mind clear
+8093,Mint can confuse the mind,A simple plant is not capable to confuse my mind.
+8093,Mint can confuse the mind,Mint does not cause confusion
+8127,There are more mosquitoes in the day than at night,Mosquitoes are nocturnal
+8127,There are more mosquitoes in the day than at night,Mosquitoes don't survive in day light.
+8127,There are more mosquitoes in the day than at night,Mosquitoes are more likely to be seen at night.
+8158,Eyelashes grow above the mouths,Eyelashes grow at the front of the eyelid
+8158,Eyelashes grow above the mouths,Hair above the mouth is a mustashe.
+8158,Eyelashes grow above the mouths,Eyelashes grow above your eyes on your eyelids.
+8178,Clouds will fall onto the ground,The water vapor that forms clouds is very light in mass.
+8178,Clouds will fall onto the ground,Clouds are not a solid.
+8178,Clouds will fall onto the ground,Clouds do not fall from the sky
+8181,The sun is an iced ball,Fusion of hydrogen atoms inside the sun produces a lot of heat
+8181,The sun is an iced ball,The sun brings warm and could burn
+8181,The sun is an iced ball,"The sun is a ball of fire, so does not contain ice."
+8187,Sugar can decay the spine,Sugar can't directly contact the spine
+8187,Sugar can decay the spine,Spine doesn't contain any decaying objects.
+8187,Sugar can decay the spine,The spine is not hear sugar when you eat it
+8243,All mosquitoes suck blood,"Only female mosquitoes can suck blood, but male mosquitoes can't"
+8243,All mosquitoes suck blood,There are many different types of mosquito.
+8243,All mosquitoes suck blood,It is not necessary for mosquitoes to suck blood.
+8284,Whales are egg-laying animals.,Whales are viviparous animals.
+8284,Whales are egg-laying animals.,Whales are  mammals and do not lay eggs but give birth the same as we do and other mammals.
+8284,Whales are egg-laying animals.,Whales are mammals and give live birth
+8313,Honey is the juice secreted by the queen bee.,The queen bee does not produce nectar.
+8313,Honey is the juice secreted by the queen bee.,The Queen bee doesn't secret and unable to make honey
+8313,Honey is the juice secreted by the queen bee.,The queen bee doesn't secrete any juice.
+8328,"He is a selfish man, so he is very popular.",Selfish people are disgusting.
+8328,"He is a selfish man, so he is very popular.",By any way the people can get popular
+8328,"He is a selfish man, so he is very popular.","If a man is selfish, He/She is hated by everyone"
+8362,Buses need water to run.,Buses cannot run with water
+8362,Buses need water to run.,Buses run on gasoline.
+8362,Buses need water to run.,You cant light water on fire
+8403,Penguins live in the air.,Penguins can't fly.
+8403,Penguins live in the air.,Penguins can't fly
+8403,Penguins live in the air.,Penguins live on land and swim in the ocean.
+8446,Playing chess is bad for people.,Playing chess can train people's thinking and coping abilities.
+8446,Playing chess is bad for people.,Playing chess will sharpen the brain and is not bad
+8446,Playing chess is bad for people.,Playing chess is challenging.
+8575,He turned on the TV first and plugged in the power,Television can only be turned on if it is plugged in first
+8575,He turned on the TV first and plugged in the power,Without plugging the power we cannot turn on the TV.
+8575,He turned on the TV first and plugged in the power,You need to plug in the TV before It will work
+8709,The human kidney is a digestive organ.,The kidney is a detoxification organ.
+8709,The human kidney is a digestive organ.,Kidney is not used to digest foor
+8709,The human kidney is a digestive organ.,human stomach is the digestive organ not kidney.
+8791,I work 25 hours a day,a day only has 24 hours
+8791,I work 25 hours a day,There's only 24 hours in a day.
+8791,I work 25 hours a day,there are only 24 hours in a day
+8847,supermarkets rise prices for a year-end clearance,supermarkets want to attract more customers in the year-end
+8847,supermarkets rise prices for a year-end clearance,clearance are for price reduction
+8847,supermarkets rise prices for a year-end clearance,In supermarkets year end clearance at low prices.
+8894,it is rainy so they go camping,rainy days are inconvenient for camping
+8894,it is rainy so they go camping,We don't camping in rainy day.
+8894,it is rainy so they go camping,People don't go camping in rainy weather.
+8965,I'm thirsty so I drink seawater,a human cannot drink seawater directly
+8965,I'm thirsty so I drink seawater,Salt water dehydrates.
+8965,I'm thirsty so I drink seawater,No one can drink sea water because its too much salty.
+9001,I put all my stuff in the drawer to travel,drawer is too small and inconvenient to carry around
+9001,I put all my stuff in the drawer to travel,Drawers are used for long term storage of stuff
+9001,I put all my stuff in the drawer to travel,People use suitcases to carry travel stuff.
+9054,he looked through a magnifier to observe a cell,a magnifier isn't accurate enough to observe a cell
+9054,he looked through a magnifier to observe a cell,A magnifying glass does not have enough power to focus on a single cell.
+9054,he looked through a magnifier to observe a cell,Cell can be observed through only microscope not magnifier
+9123,joey used a mop to dry himself,mop is used to absorb water from the floor
+9123,joey used a mop to dry himself,"Mops are used for cleaning floors, not people."
+9123,joey used a mop to dry himself,Mops are wet and aren't used to dry a person.
+9149,he wanted to lose weight to fit into future clothes,future clothes don't have a fixed size
+9149,he wanted to lose weight to fit into future clothes,he would lose weight to fit into his current clothes
+9149,he wanted to lose weight to fit into future clothes,He would be losing weight to fit clothes he doesn
+9189,the mirror in the bathroom fogged up after she applied her makeup,a mirror in the bathroom got fogged up usually because the air is humid and warm
+9189,the mirror in the bathroom fogged up after she applied her makeup,The mirror should only fog up when hot water is running.
+9189,the mirror in the bathroom fogged up after she applied her makeup,After applying makeup mirror won't get fogged
+9238,he runs errands to spend money,You usually get paid for running errands
+9238,he runs errands to spend money,Running errands is to get items
+9238,he runs errands to spend money,Spending Money No need to run
+9317,Households get dirty after housework,The housework is for cleaning furniture
+9317,Households get dirty after housework,households get clean after housework
+9317,Households get dirty after housework,"Housework is a way of cleaning up one's house, not making it dirty."
+9412,the cry of the audience is the best encouragement for the comedian,comedians' job is to make the audience happy
+9412,the cry of the audience is the best encouragement for the comedian,THE LAUGH & CLAPPING HANDS IS  THE BEST ENCOURAGEMENT FOR THE COMEDIAN NOT THE CRY
+9412,the cry of the audience is the best encouragement for the comedian,usually comedians make the audience laugh
+9417,every morning I read the news on the diary,things written in the diary is not news
+9417,every morning I read the news on the diary,In diary we cannot read the news.
+9417,every morning I read the news on the diary,The diary does not have the news.
+9485,I hurried to the ticket window to sell two tickets,ticket windows don't buy tickets from customers
+9485,I hurried to the ticket window to sell two tickets,You buy tickets at a ticket window.
+9485,I hurried to the ticket window to sell two tickets,you buy tickets from the ticket window
+9644,I saw snow in Singapore in June,it's summer in June in Singapore
+9644,I saw snow in Singapore in June,It does not snow in Singapore during June.
+9644,I saw snow in Singapore in June,It does not snow in the summer.
+9655,I often bought chalk for teachers to write on the ipads when I was a boy,chalk is used to write on the blackboards
+9655,I often bought chalk for teachers to write on the ipads when I was a boy,Chalk is for writing on chalkboards.
+9655,I often bought chalk for teachers to write on the ipads when I was a boy,Chalk is not used on an ipad
+9753,"I can't afford the flight ticket from China to the US, so I decided to walk",the distance between China and America is too long to walk
+9753,"I can't afford the flight ticket from China to the US, so I decided to walk","You can't walk from China to America, it's not possible"
+9753,"I can't afford the flight ticket from China to the US, so I decided to walk","To travel from China to the US you have to swim, you can't walk"
+9896,the boy was afraid to go to bed because he watched a comedy movie,a comedy movie doesn't make people afraid of sleeping
+9896,the boy was afraid to go to bed because he watched a comedy movie,a comedy shouldn't make you afraid to go to bed.  A horror movie would make you afraid to go to bed
+9896,the boy was afraid to go to bed because he watched a comedy movie,Comedy movies aren't scary.
+9920,fiona put the soup on ice cubes and it became thick,the temperature of the soup doesn't affect its thickness
+9920,fiona put the soup on ice cubes and it became thick,Ice cubes added to a soup would make it thinner.
+9920,fiona put the soup on ice cubes and it became thick,Soup is mostly water so it would not thicken with ice.
+9930,he wants to lose weight because he is too thin,losing weight when too thin is unhealthy
+9930,he wants to lose weight because he is too thin,"if one is too thin, one needs to gain weight"
+9930,he wants to lose weight because he is too thin,Losing weight when you are thin is dangerous.

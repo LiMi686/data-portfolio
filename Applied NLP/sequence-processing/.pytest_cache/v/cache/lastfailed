@@ -1,0 +1,5 @@
+{
+  "test.py::test_create_embedding_matrix": true,
+  "test.py::test_create_model_with_embeddings": true,
+  "test.py::test_train_model": true
+}
